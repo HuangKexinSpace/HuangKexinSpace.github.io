@@ -6,7 +6,10 @@ copyright = "© Athul"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+
+
 [params]
+favicon = "assets/kexin-avatar-icon.svg"
 	mode="auto"
 	useCDN=false
 	subtitle = "Hi, I am Kexin. Welcome to my Blog"
