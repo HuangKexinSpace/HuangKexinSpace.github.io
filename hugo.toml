@@ -1,6 +1,6 @@
 baseURL = "https://example.com"
 languageCode = "en-us"
-title = "kx"
+title = "Kexin's Blog"
 theme="archie"
 copyright = "© Athul"
 pygmentsstyle = "monokai"
@@ -9,7 +9,7 @@ pygmentscodefencesguesssyntax = true
 [params]
 	mode="auto"
 	useCDN=false
-	subtitle = "I am kx"
+	subtitle = "Hi, I am Kexin. Welcome to my Blog"
 
 [[params.social]]
 name = "GitHub"
