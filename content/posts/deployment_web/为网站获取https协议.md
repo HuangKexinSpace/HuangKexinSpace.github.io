@@ -26,4 +26,14 @@ tags:
 2. 点我的证书，然后点申请免费证书，根据指示填写。
 	![pic](../attachments/为网站获取https协议-2.png)
 	![pic](../attachments/为网站获取https协议-3.png)
-	
+3. 填写完成几分钟后，站内信会提示SSL证书审核通过。这个时候回到我的证书页面，点击下载，选择Nginx。会下载下来一个压缩包，先放好。
+	![pic](../attachments/为网站获取https协议-4.png)
+	![pic](../attachments/为网站获取https协议-5.png)
+### 服务器租赁
+
+1. 我选择了腾讯云的轻量应用服务器（便宜，需求不大），在腾讯云买服务器的网站上选轻量云服务器：[https://cloud.tencent.com/product/lighthouse](https://cloud.tencent.com/product/lighthouse)
+    
+2. **选择应用模板的时候要选这个宝塔Linux面板，这个很大程度上会方便部署****SSL****证书。**
+	![pic](../attachments/为网站获取https协议-6.png)
+3. 后续操作：租赁好服务器后，在控制台中进入服务器页面，然后点域名解析。添加需要的域名。
+	![pic](../attachments/为网站获取https协议-7.png)
