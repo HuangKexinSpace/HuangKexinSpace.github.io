@@ -7,14 +7,14 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Athul</copyright>
-    <lastBuildDate>Thu, 02 Apr 2020 02:01:58 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 26 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>佳佳</title>
-      <link>http://localhost:1313/posts/cpp/cpp/</link>
-      <pubDate>Thu, 02 Apr 2020 02:01:58 +0530</pubDate>
-      <guid>http://localhost:1313/posts/cpp/cpp/</guid>
-      <description>hhhhh 环节快乐；&#xA;hi </description>
+      <title>为网站获取https协议</title>
+      <link>http://localhost:1313/posts/deployment_web/%E4%B8%BA%E7%BD%91%E7%AB%99%E8%8E%B7%E5%8F%96https%E5%8D%8F%E8%AE%AE/</link>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/deployment_web/%E4%B8%BA%E7%BD%91%E7%AB%99%E8%8E%B7%E5%8F%96https%E5%8D%8F%E8%AE%AE/</guid>
+      <description>前言：买域名+解析+ssl证书部署+买服务器都是在腾讯云完成的。&#xA;购置域名 域名购买网址：https://buy.cloud.tencent.com/domain&#xA;域名解析 腾讯云控制台-我的域名：https://console.cloud.tencent.com/domain/all-domain/all 在域名栏的DNS状态，点击管理解析。或者也可以直接在腾讯云搜索DNS解析。 </description>
     </item>
     <item>
       <title>hi</title>
