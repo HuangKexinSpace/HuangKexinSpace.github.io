@@ -9,3 +9,5 @@ tags:
 
 测试 obsidian
 
+
+![[Pasted image 20240826121301.png]]
