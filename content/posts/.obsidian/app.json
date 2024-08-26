@@ -2,5 +2,6 @@
   "propertiesInDocument": "source",
   "attachmentFolderPath": "./attachments",
   "promptDelete": false,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "showLineNumber": true
 }
