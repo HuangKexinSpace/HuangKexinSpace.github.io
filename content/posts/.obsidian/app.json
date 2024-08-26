@@ -1,5 +1,6 @@
 {
   "propertiesInDocument": "source",
   "attachmentFolderPath": "./attachments",
-  "promptDelete": false
+  "promptDelete": false,
+  "strictLineBreaks": true
 }
