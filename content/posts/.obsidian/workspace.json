@@ -80,6 +80,14 @@
         "type": "tabs",
         "children": [
           {
+            "id": "fa6fe3c5c664a17b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
             "id": "0cd271fb5c972820",
             "type": "leaf",
             "state": {
@@ -129,8 +137,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
