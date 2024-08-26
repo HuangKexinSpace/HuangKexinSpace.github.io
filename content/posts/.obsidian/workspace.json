@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cpp/未命名.md",
+                "file": "Cpp/cpp.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5,
-    "collapsed": true
+    "width": 237.5
   },
   "right": {
     "id": "658db613c2de1a2e",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cpp/未命名.md",
+                "file": "Cpp/cpp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cpp/未命名.md",
+                "file": "Cpp/cpp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cpp/未命名.md"
+                "file": "Cpp/cpp.md"
               }
             }
           }
@@ -156,8 +155,10 @@
   },
   "active": "7053753284a20acf",
   "lastOpenFiles": [
-    "Pasted image 20240826121154.png",
+    "未命名.md",
+    "Cpp/cpp.md",
     "Cpp/未命名.md",
+    "Pasted image 20240826121154.png",
     "未命名.canvas",
     "Cpp/attachments/未命名-3.png",
     "Cpp/attachments/未命名-2.png",
@@ -170,10 +171,7 @@
     "Cpp/attachments/Pasted image 20240826121315.png",
     "Cpp/attachments",
     "hi.md",
-    "attachments/Pasted image 20240826121301.png",
     "attachments",
-    "未命名.md",
-    "Cpp/cpp.md",
     "2024-08-26.md",
     "未命名"
   ]
