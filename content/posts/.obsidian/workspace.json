@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 237.5
   },
   "right": {
     "id": "658db613c2de1a2e",
@@ -129,12 +129,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,5 +147,7 @@
     }
   },
   "active": "7053753284a20acf",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "hi.md"
+  ]
 }
