@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Primer on kx</title>
-    <link>http://localhost:60992/tags/primer/</link>
+    <link>http://localhost:1313/tags/primer/</link>
     <description>Recent content in Primer on kx</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Athul</copyright>
     <lastBuildDate>Thu, 02 Apr 2020 02:01:58 +0530</lastBuildDate>
-    <atom:link href="http://localhost:60992/tags/primer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/primer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>佳佳</title>
-      <link>http://localhost:60992/posts/cpp/cpp/</link>
+      <link>http://localhost:1313/posts/cpp/cpp/</link>
       <pubDate>Thu, 02 Apr 2020 02:01:58 +0530</pubDate>
-      <guid>http://localhost:60992/posts/cpp/cpp/</guid>
+      <guid>http://localhost:1313/posts/cpp/cpp/</guid>
       <description>hhhhh 环节快乐；&#xA;hi </description>
     </item>
     <item>
       <title>hi</title>
-      <link>http://localhost:60992/posts/hi/</link>
+      <link>http://localhost:1313/posts/hi/</link>
       <pubDate>Wed, 01 Apr 2020 02:01:58 +0530</pubDate>
-      <guid>http://localhost:60992/posts/hi/</guid>
-      <description>测试 obsidian</description>
+      <guid>http://localhost:1313/posts/hi/</guid>
+      <description>测试 obsidian&#xA;![[Pasted image 20240826121301.png]]</description>
     </item>
   </channel>
 </rss>

@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/hi/</loc>
-    <lastmod>2020-04-01T02:01:58+05:30</lastmod>
+    <loc>http://localhost:1313/posts/%E6%9C%AA%E5%91%BD%E5%90%8D/</loc>
+    <lastmod>2024-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2020-04-01T02:01:58+05:30</lastmod>
+    <lastmod>2024-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2020-04-01T02:01:58+05:30</lastmod>
+    <lastmod>2024-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/cpp/%E6%9C%AA%E5%91%BD%E5%90%8D/</loc>
+    <lastmod>2024-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/primer/</loc>
-    <lastmod>2020-04-01T02:01:58+05:30</lastmod>
+    <lastmod>2020-04-02T02:01:58+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2020-04-01T02:01:58+05:30</lastmod>
+    <lastmod>2020-04-02T02:01:58+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/todo/</loc>
+    <lastmod>2020-04-02T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/cpp/cpp/</loc>
+    <lastmod>2020-04-02T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/hi/</loc>
     <lastmod>2020-04-01T02:01:58+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
