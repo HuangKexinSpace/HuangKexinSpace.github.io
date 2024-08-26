@@ -28,7 +28,7 @@ tags:
 	![pic](../attachments/为网站获取https协议-3.png)
 3. 填写完成几分钟后，站内信会提示SSL证书审核通过。这个时候回到我的证书页面，点击下载，选择Nginx。会下载下来一个压缩包，先放好。
 	![pic](../attachments/为网站获取https协议-4.png)
-	![pic](../attachments/为网站获取https协议-5.png)
+	![pic|500](../attachments/为网站获取https协议-5.png)
 ### 服务器租赁
 
 1. 我选择了腾讯云的轻量应用服务器（便宜，需求不大），在腾讯云买服务器的网站上选轻量云服务器：[https://cloud.tencent.com/product/lighthouse](https://cloud.tencent.com/product/lighthouse)
