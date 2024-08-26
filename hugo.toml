@@ -9,7 +9,7 @@ pygmentscodefencesguesssyntax = true
 
 
 [params]
-favicon = "https://raw.githubusercontent.com/HuangKexinSpace/HuangKexinSpace.github.io/e0407eae529e609408375b77e1f24e55e1f6588f/assets/kexin-avatar-icon.svg"
+favicon = "https://raw.githubusercontent.com/HuangKexinSpace/HuangKexinSpace.github.io/e0407eae529e609408375b77e1f24e55e1f6588f/assets/kexin-avatar-icon.png"
 	mode="auto"
 	useCDN=false
 	subtitle = "Hi, I am Kexin. Welcome to my Blog"
