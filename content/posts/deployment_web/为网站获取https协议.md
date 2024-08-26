@@ -37,3 +37,19 @@ tags:
 	![pic](../attachments/为网站获取https协议-6.png)
 3. 后续操作：租赁好服务器后，在控制台中进入服务器页面，然后点域名解析。添加需要的域名。
 	![pic](../attachments/为网站获取https协议-7.png)
+4. 后续操作：防火墙需要关闭，策略全部改为允许。添加规则，来源输入当前电脑常用网络的IP，端口写8888(我也不知道为何)
+	![pic](../attachments/为网站获取https协议-8.png)
+
+### SSL部署
+
+按照这3个文档的顺序操作，非常丝滑：
+
+https://cloud.tencent.com/document/product/213/5436
+
+https://cloud.tencent.com/document/product/213/45550
+
+https://cloud.tencent.com/document/product/400/50874（这个文档中的证书安装的1-2步即证书下载，上面步骤完成了。） 操作完成后，过几分钟，输入网址域名，就会看到https了。
+
+### 备案
+
+在腾讯云搜索备案，然后跟着要求操作就行了。
