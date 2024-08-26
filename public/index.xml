@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kx</title>
+    <link>http://localhost:60992/</link>
+    <description>Recent content on kx</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Athul</copyright>
+    <lastBuildDate>Thu, 02 Apr 2020 02:01:58 +0530</lastBuildDate>
+    <atom:link href="http://localhost:60992/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>佳佳</title>
+      <link>http://localhost:60992/posts/cpp/cpp/</link>
+      <pubDate>Thu, 02 Apr 2020 02:01:58 +0530</pubDate>
+      <guid>http://localhost:60992/posts/cpp/cpp/</guid>
+      <description>hhhhh 环节快乐；&#xA;hi </description>
+    </item>
+    <item>
+      <title>hi</title>
+      <link>http://localhost:60992/posts/hi/</link>
+      <pubDate>Wed, 01 Apr 2020 02:01:58 +0530</pubDate>
+      <guid>http://localhost:60992/posts/hi/</guid>
+      <description>hhhhhfgcvhj</description>
+    </item>
+  </channel>
+</rss>
