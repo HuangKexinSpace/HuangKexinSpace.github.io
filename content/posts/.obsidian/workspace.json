@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 237.5,
+    "collapsed": true
   },
   "right": {
     "id": "658db613c2de1a2e",
@@ -155,19 +156,22 @@
   },
   "active": "7053753284a20acf",
   "lastOpenFiles": [
+    "Pasted image 20240826121154.png",
+    "Cpp/未命名.md",
+    "未命名.canvas",
+    "Cpp/attachments/未命名-3.png",
+    "Cpp/attachments/未命名-2.png",
+    "Cpp/attachments/未命名.png",
     "Cpp/image.png",
     "Cpp/attachments/test.png",
     "Cpp/attachments/未命名.png",
     "Cpp/attachments/未命名-1.png",
-    "Cpp/未命名.md",
     "Cpp/attachments/Pasted image 20240826121401.png",
     "Cpp/attachments/Pasted image 20240826121315.png",
     "Cpp/attachments",
     "hi.md",
     "attachments/Pasted image 20240826121301.png",
     "attachments",
-    "Pasted image 20240826121154.png",
-    "未命名.canvas",
     "未命名.md",
     "Cpp/cpp.md",
     "2024-08-26.md",
