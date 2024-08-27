@@ -11,12 +11,8 @@
             "id": "7053753284a20acf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "deployment_web/为网站获取https协议.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "deployment_web/为网站获取https协议.md"
+                "file": "项目1.md"
               }
             }
           },
@@ -95,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "deployment_web/为网站获取https协议.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +107,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "deployment_web/为网站获取https协议.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +153,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7053753284a20acf",
+  "active": "9e84f7ce09783e97",
   "lastOpenFiles": [
     "deployment_web/attachments/为网站获取https协议.png",
     "deployment_web/为网站获取https协议.md",
