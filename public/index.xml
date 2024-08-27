@@ -17,11 +17,18 @@
       <description>The Present Me: I am a master’s student in Industrial Design at the School of Design, majoring in Industrial Design Engineering. I am also a member of the ai{DEAL}Studio! My research focuses on human-computer interaction (HCI), primarily using computer technology to design and develop applications that aid in education. I occasionally update my WeChat Official Account, sharing insights from my life experiences. 现在的我： 目前，我是南方科技大学设计学院工业设计工程专业的学生。我是 ai{DEAL}Studio 的一名小小硕士研究生！我的研究重点是人机交互，主要使用计算机技术来设计和开发一些支持教育的应用。我偶尔也会更新我的微信公众号（雨天啤酒），分享我的生活感受。&#xA;The Future Me: I aspire to be a creative developer.</description>
     </item>
     <item>
-      <title>2</title>
-      <link>http://localhost:1313/project/project1/</link>
+      <title>ARClassroom</title>
+      <link>http://localhost:1313/project/arclassroom/</link>
       <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/project1/</guid>
-      <description></description>
+      <guid>http://localhost:1313/project/arclassroom/</guid>
+      <description> 状态：构思中 </description>
+    </item>
+    <item>
+      <title>Novobo</title>
+      <link>http://localhost:1313/project/novobo/</link>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/novobo/</guid>
+      <description> 日期：202310-202409 待整理 </description>
     </item>
     <item>
       <title>为网站获取https协议</title>
