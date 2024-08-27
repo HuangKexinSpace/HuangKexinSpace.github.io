@@ -12,7 +12,7 @@ author = "Hugo Authors"
     
 - **The Future Me:** I aspire to be a creative developer. I want to develop interesting applications, games etc.
     
-**未来的我：** 我希望成为一名有趣的开发者。我希望我的作品可以是有趣的应用、游戏或任何其他什么小东西。
+**未来的我：** 我希望成为一名有意思的开发者。我希望我的作品可以是有趣的应用、游戏或任何其他什么小东西。
 
 # EDUCATION
 
