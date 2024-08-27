@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Novobo.md",
+                "file": "ARClassroom.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Novobo.md"
+                "file": "ARClassroom.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Novobo.md",
+                "file": "ARClassroom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Novobo.md",
+                "file": "ARClassroom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,8 +174,8 @@
   },
   "active": "713c5edf1c5b305c",
   "lastOpenFiles": [
-    "ARClassroom.md",
     "Novobo.md",
+    "ARClassroom.md",
     "MR教室.md",
     "deployment_web/attachments/为网站获取https协议.png",
     "deployment_web/为网站获取https协议.md",
