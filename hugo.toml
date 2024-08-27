@@ -6,18 +6,27 @@ copyright = "© Athul"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-
+paginate = 2
 
 [params]
 favicon = "https://github.com/HuangKexinSpace/HuangKexinSpace.github.io/blob/master/assets/kexin-icon.png?raw=true"
-	mode="auto"
-	useCDN=false
-	subtitle = "Hi, I am Kexin. Welcome to my Blog"
+mode="auto"
+useCDN=false
+subtitle = """
+Hello, this is Kexin. I am a master's student 👩‍🎓 at Southern University of Science and Technology, focus on Human-Computer Interaction. 
+Here, I document my [projects](https://huangkexinspace.github.io/project/) and [learning progress](https://huangkexinspace.github.io/posts/). Feel free to read [about](https://huangkexinspace.github.io/about/) me to get more info. 
+The following are my recent learning posts.👇
+"""
 
 [[params.social]]
 name = "GitHub"
 icon = "github"
 url = "https://github.com/HuangKexinSpace"
+
+[[params.social]]
+name = "Email"
+icon = "mail"
+url = "mailto:functionhkx@gmail.com"
 
 
 [[menu.main]]
@@ -26,14 +35,15 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All Posts"
+name = "Post"
 url = "/posts"
-weight = 2
+weight = 3
 
 [[menu.main]]
 name = "Project"
 url = "/project"
-weight = 3
+title = "all projects"
+weight = 2
 
 [[menu.main]]
 name = "About"
@@ -44,3 +54,4 @@ weight = 4
 name = "Tags"
 url = "/tags"
 weight = 5
+
