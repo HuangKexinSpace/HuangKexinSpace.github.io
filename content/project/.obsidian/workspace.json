@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "e5e38dd74d04da79",
+    "id": "082549432352b243",
     "type": "split",
     "children": [
       {
-        "id": "d3714116681ff86c",
+        "id": "6858ce4fad1d69db",
         "type": "tabs",
         "children": [
           {
-            "id": "7053753284a20acf",
+            "id": "347b1f63f7c1c93d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "deployment_web/为网站获取https协议.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "04bd8727ea613cbd",
+    "id": "c13fbf3884265494",
     "type": "split",
     "children": [
       {
-        "id": "7d772aca65e6b370",
+        "id": "260cfc40a6162057",
         "type": "tabs",
         "children": [
           {
-            "id": "9e84f7ce09783e97",
+            "id": "3e12c556dfd25812",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "7d47d00cfcc6facf",
+            "id": "add8e01aca983932",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "aa56adade672020c",
+            "id": "83491e289e8204e6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,33 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 300
   },
   "right": {
-    "id": "658db613c2de1a2e",
+    "id": "52fae0e7c6158fa9",
     "type": "split",
     "children": [
       {
-        "id": "42e95d439b8905d0",
+        "id": "e91952a83e32b10a",
         "type": "tabs",
         "children": [
           {
-            "id": "c232e3b735535cd1",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "deployment_web/为网站获取https协议.md"
-              }
-            }
-          },
-          {
-            "id": "0cd271fb5c972820",
+            "id": "7620f6bf52a94c32",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "deployment_web/为网站获取https协议.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,19 +92,18 @@
             }
           },
           {
-            "id": "f56178ba552c8ad1",
+            "id": "c3d56b22db95e53a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "deployment_web/为网站获取https协议.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "a74da2dae348ca90",
+            "id": "7b04165ab9c9b932",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -128,18 +112,12 @@
                 "useHierarchy": true
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "6f666780673821f2",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "fa6fe3c5c664a17b",
+            "id": "1f7aacd81451d2cd",
             "type": "leaf",
             "state": {
-              "type": "git-view",
+              "type": "outline",
               "state": {}
             }
           }
@@ -147,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,28 +138,8 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7053753284a20acf",
+  "active": "347b1f63f7c1c93d",
   "lastOpenFiles": [
-    "deployment_web/attachments/为网站获取https协议.png",
-    "deployment_web/为网站获取https协议.md",
-    "hi.md",
-    "deployment_web/attachments/为网站获取https协议-8.png",
-    "deployment_web/attachments/为网站获取https协议-7.png",
-    "deployment_web/attachments/为网站获取https协议-6.png",
-    "deployment_web/attachments/为网站获取https协议-5.png",
-    "deployment_web/attachments/为网站获取https协议-4.png",
-    "deployment_web/attachments/为网站获取https协议-3.png",
-    "deployment_web/attachments/为网站获取https协议-2.png",
-    "().md",
-    "deployment_web/attachments/为网站获取https协议-1.png",
-    "deployment_web/attachments",
-    "未命名.md",
-    "Cpp/未命名.md",
-    "Pasted image 20240826121154.png",
-    "未命名.canvas",
-    "Cpp/attachments",
-    "attachments",
-    "2024-08-26.md",
-    "未命名"
+    "未命名.md"
   ]
 }
