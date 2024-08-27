@@ -14,7 +14,7 @@ favicon = "https://github.com/HuangKexinSpace/HuangKexinSpace.github.io/blob/mas
 	useCDN=false
 	subtitle = """Hello, this is Kexin. I am a master's student 👩‍🎓 at Southern University of Science and Technology, focus on Human-Computer Interaction. 
 Here, I document my [projects](https://huangkexinspace.github.io/project/) and [learning progress](https://huangkexinspace.github.io/posts/). Feel free to read [about](https://huangkexinspace.github.io/about/) me to get more info. 
-The following are my recent learning posts.👇"""
+The following are my latest updates on projects and learning.👇"""
 
 [[params.social]]
 name = "GitHub"
