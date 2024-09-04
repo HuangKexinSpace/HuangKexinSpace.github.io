@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "deployment_web/为网站获取https协议.md",
+                "file": "XR_RAYNEO/RAYNEO_X2_环境配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "deployment_web/为网站获取https协议.md"
+                "file": "XR_RAYNEO/RAYNEO_X2_环境配置.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "deployment_web/为网站获取https协议.md",
+                "file": "XR_RAYNEO/RAYNEO_X2_环境配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "deployment_web/为网站获取https协议.md",
+                "file": "XR_RAYNEO/RAYNEO_X2_环境配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,8 +161,10 @@
   },
   "active": "7053753284a20acf",
   "lastOpenFiles": [
-    "deployment_web/attachments/为网站获取https协议.png",
     "deployment_web/为网站获取https协议.md",
+    "XR_RAYNEO/RAYNEO_X2_环境配置.md",
+    "XR_RAYNEO",
+    "deployment_web/attachments/为网站获取https协议.png",
     "hi.md",
     "deployment_web/attachments/为网站获取https协议-8.png",
     "deployment_web/attachments/为网站获取https协议-7.png",
@@ -180,7 +182,6 @@
     "未命名.canvas",
     "Cpp/attachments",
     "attachments",
-    "2024-08-26.md",
-    "未命名"
+    "2024-08-26.md"
   ]
 }
