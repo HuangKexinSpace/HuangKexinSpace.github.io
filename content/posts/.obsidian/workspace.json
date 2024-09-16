@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7448514a8f45febe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cpp/cpp日记0916.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XR_RAYNEO/RAYNEO_X2_环境配置.md"
+                "file": "Cpp/cpp日记0916.md"
               }
             }
           },
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XR_RAYNEO/RAYNEO_X2_环境配置.md",
+                "file": "Cpp/cpp日记0916.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "XR_RAYNEO/RAYNEO_X2_环境配置.md",
+                "file": "Cpp/cpp日记0916.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +174,10 @@
   },
   "active": "9e84f7ce09783e97",
   "lastOpenFiles": [
-    "deployment_web/为网站获取https协议.md",
     "XR_RAYNEO/RAYNEO_X2_环境配置.md",
-    "未命名.md",
+    "Cpp/cpp日记0916.md",
+    "Cpp",
+    "deployment_web/为网站获取https协议.md",
     "XR_RAYNEO",
     "deployment_web/attachments/为网站获取https协议.png",
     "hi.md",
@@ -177,7 +191,6 @@
     "().md",
     "deployment_web/attachments/为网站获取https协议-1.png",
     "deployment_web/attachments",
-    "Cpp/未命名.md",
     "Pasted image 20240826121154.png",
     "未命名.canvas",
     "Cpp/attachments",
