@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "658db613c2de1a2e",
@@ -148,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 227.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,7 +159,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7053753284a20acf",
+  "active": "9e84f7ce09783e97",
   "lastOpenFiles": [
     "deployment_web/为网站获取https协议.md",
     "XR_RAYNEO/RAYNEO_X2_环境配置.md",
