@@ -6,6 +6,8 @@ tags:
   - AR
 ---
 - 官方文档参考：https://open.rayneo.cn/#/docs/x2?name=
+- 开发手册：https://leiniao-ibg.feishu.cn/wiki/OwFfwCpgqiEekBkSRwlcJuRPnoc
+
 ### 进度
 - 0904进度
 	- 熟悉了一下眼镜的使用交互
