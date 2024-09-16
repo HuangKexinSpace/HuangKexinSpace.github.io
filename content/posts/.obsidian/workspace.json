@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -173,7 +172,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7d47d00cfcc6facf",
+  "active": "9e84f7ce09783e97",
   "lastOpenFiles": [
     "XR_RAYNEO/RAYNEO_X2_环境配置.md",
     "Cpp/cpp日记0916.md",
