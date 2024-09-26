@@ -11,8 +11,12 @@
             "id": "9a4fd3c38cdf2075",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Novobo.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -141,10 +145,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c232e3b735535cd1",
+  "active": "9a4fd3c38cdf2075",
   "lastOpenFiles": [
-    "Novobo.md",
     "ARClassroom.md",
+    "Novobo.md",
     "2024-09-26.md",
     "未命名.canvas",
     "MR教室.md",
