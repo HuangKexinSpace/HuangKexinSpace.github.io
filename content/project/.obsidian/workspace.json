@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Novobo.md",
+                "file": "MRClassroom.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Novobo.md"
+                "file": "MRClassroom.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Novobo.md",
+                "file": "MRClassroom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Novobo.md",
+                "file": "MRClassroom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,8 +162,8 @@
   },
   "active": "375fbe6873eb120a",
   "lastOpenFiles": [
-    "MRClassroom.md",
     "Novobo.md",
+    "MRClassroom.md",
     "2024-09-26.md",
     "未命名.canvas",
     "MR教室.md",
