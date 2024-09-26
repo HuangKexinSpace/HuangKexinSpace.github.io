@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7cba8baa5ef0df88",
+        "id": "60a3bb89fa88db6d",
         "type": "tabs",
         "children": [
           {
-            "id": "a9226c22d125d8c6",
+            "id": "3bce502c36d11647",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ARClassroom.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
