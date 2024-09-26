@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -129,6 +130,21 @@
               }
             }
           }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "6ad05d159d8e8649",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7bd4fe11d1dbec31",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
         ]
       }
     ],
@@ -145,7 +161,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9a4fd3c38cdf2075",
+  "active": "a74da2dae348ca90",
   "lastOpenFiles": [
     "ARClassroom.md",
     "Novobo.md",
