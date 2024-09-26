@@ -1,5 +1,5 @@
 ---
-title: RayNEO_X2_环境配置
+title: RayNeoX2_环境配置
 date: 2024-09-16
 description: 
 tags:
