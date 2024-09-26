@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "60a3bb89fa88db6d",
+        "id": "ccd8b86aa2e39380",
         "type": "tabs",
         "children": [
           {
-            "id": "3bce502c36d11647",
+            "id": "9a4fd3c38cdf2075",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,7 +81,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ARClassroom.md"
+                "file": "Novobo.md"
               }
             }
           },
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ARClassroom.md",
+                "file": "Novobo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ARClassroom.md",
+                "file": "Novobo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,12 +121,11 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -142,12 +141,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0cd271fb5c972820",
+  "active": "c232e3b735535cd1",
   "lastOpenFiles": [
-    "2024-09-26.md",
-    "ARClassroom.md",
-    "未命名.canvas",
     "Novobo.md",
+    "ARClassroom.md",
+    "2024-09-26.md",
+    "未命名.canvas",
     "MR教室.md",
     "deployment_web/attachments/为网站获取https协议.png",
     "deployment_web/为网站获取https协议.md",
