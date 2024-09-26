@@ -6,7 +6,7 @@ copyright = "© Athul"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-paginate = 2
+paginate = 3
 
 [params]
 favicon = "https://github.com/HuangKexinSpace/HuangKexinSpace.github.io/blob/master/assets/kexin-icon.png?raw=true"
