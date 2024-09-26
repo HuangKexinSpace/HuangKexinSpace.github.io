@@ -23,8 +23,12 @@
             "id": "e4ac848fa5dd219f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "XR_RAYNEO/RayNeoX2_环境配置.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cpp/Cpp日记0917.md"
+                "file": "XR_RAYNEO/RayNeoX2_环境配置.md"
               }
             }
           },
@@ -104,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cpp/Cpp日记0917.md",
+                "file": "XR_RAYNEO/RayNeoX2_环境配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cpp/Cpp日记0917.md",
+                "file": "XR_RAYNEO/RayNeoX2_环境配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +176,7 @@
   "lastOpenFiles": [
     "Cpp/Cpp日记0917.md",
     "Cpp/Cpp日记0916.md",
-    "XR_RAYNEO/RAYNEO_X2_环境配置.md",
+    "XR_RAYNEO/RayNeoX2_环境配置.md",
     "deployment_web/为网站获取https协议.md",
     "Cpp",
     "XR_RAYNEO",
