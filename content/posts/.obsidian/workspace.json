@@ -23,9 +23,11 @@
             "id": "e4ac848fa5dd219f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "XR_RAYNEO/attachments/RayNeoX2_01_环境配置.png"
+                "file": "XR_RAYNEO/RayNeoX2_01_环境配置.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XR_RAYNEO/attachments/RayNeoX2_01_环境配置.png"
+                "file": "XR_RAYNEO/RayNeoX2_01_环境配置.md"
               }
             }
           },
@@ -106,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XR_RAYNEO/attachments/RayNeoX2_01_环境配置.png",
+                "file": "XR_RAYNEO/RayNeoX2_01_环境配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "XR_RAYNEO/attachments/RayNeoX2_01_环境配置.png",
+                "file": "XR_RAYNEO/RayNeoX2_01_环境配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,11 +172,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9e84f7ce09783e97",
+  "active": "e4ac848fa5dd219f",
   "lastOpenFiles": [
+    "XR_RAYNEO/attachments/RayNeoX2_01_环境配置.png",
     "XR_RAYNEO/RayNeoX2_01_环境配置.md",
     "XR_RAYNEO/attachments/RayNeoX2_01_环境配置-1.png",
-    "XR_RAYNEO/attachments/RayNeoX2_01_环境配置.png",
     "deployment_web/为网站获取https协议.md",
     "XR_RAYNEO/RayNeoX2_02_Sample功能详解.md",
     "XR_RAYNEO/attachments/RayNeoX2_01_环境配置-3.png",
