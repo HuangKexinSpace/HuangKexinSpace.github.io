@@ -7,8 +7,36 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Athul</copyright>
-    <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RayNeoX2_02_Sample功能详解</title>
+      <link>http://localhost:1313/posts/xr_rayneo/rayneox2_02_sample%E5%8A%9F%E8%83%BD%E8%AF%A6%E8%A7%A3/</link>
+      <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/xr_rayneo/rayneox2_02_sample%E5%8A%9F%E8%83%BD%E8%AF%A6%E8%A7%A3/</guid>
+      <description>Refer 官方文档 RayNeoX2_01_环境配置 目录：OpenXR Unity ARDK 最新 - 快速开始 - 导入Sample Sample 功能详解 </description>
+    </item>
+    <item>
+      <title>CppDairy0917</title>
+      <link>http://localhost:1313/posts/cpp/cpp%E6%97%A5%E8%AE%B00917/</link>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cpp/cpp%E6%97%A5%E8%AE%B00917/</guid>
+      <description>2.3 复合类型 引用 引用必须被初始化，引用即取别名。 指针 </description>
+    </item>
+    <item>
+      <title>CppDairy0916</title>
+      <link>http://localhost:1313/posts/cpp/cpp%E6%97%A5%E8%AE%B00916/</link>
+      <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cpp/cpp%E6%97%A5%E8%AE%B00916/</guid>
+      <description>（我一定要学会写代码，一定会找到自己想做的事，一定能做自己想做的事🥹🥹）&#xA;1.5 类 在头文件person.h中声明类 #ifndef PERSON_H // 防止头文件重复包含 #define PERSON_H #include &amp;lt;string&amp;gt; class Person { public: // 构造函数，参数列表包括名字和年龄 Person(const std::string&amp;amp; name, int age); // 获取名字 std::string getName() const; // 获取年龄 int getAge() const; // 设置名字 void setName(const std::string&amp;amp; name); // 设置年龄 void setAge(int age); private: std::string name; int age; }; #endif // PERSON_H 成员函数即定义在类/方法中的函数。 变量和基本类型 2.1 基本内置类型 2.1.1 算数类型 2.1.2 类型转换 2.1.3 字面值常量 2.2 变量 如果是内置类型的变量未被显式初始化，它的值由定义的位置决定。定义于任何函数体之外的变量被初始化为0，定义在函数体内部的内置类型变量将不被初始化，访问它会出现错误。 声明变量 extern int i; `</description>
+    </item>
+    <item>
+      <title>RayNeoX2_01_环境配置</title>
+      <link>http://localhost:1313/posts/xr_rayneo/rayneox2_01_%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/xr_rayneo/rayneox2_01_%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</guid>
+      <description> 官方文档 开发手册：https://leiniao-ibg.feishu.cn/wiki/OwFfwCpgqiEekBkSRwlcJuRPnoc 环境配置 参考教程： 官方文档 - OpenXR Unity ARDK - 最新 - 快速开始 - 开发环境搭建 安装Unity版本，安装时勾选 andriod build support，如果没勾选也可以安装后在设置的add mdules里再安装。 （推荐22.3.42f1！其他好几个版本都报错了） 创建3d core template 导入雷鸟sdk - 我选择安装包导入，也可以根据文档的从git中导入。 进度 0904进度 熟悉了一下眼镜的使用交互 配mac的unity环境 完成了ARSDK的导入✅ (版本选的22.3.42f1c1，选了其他的好几个版本都狠狠报错了) 然后根据【配置设置】操作，没有遇到什么问题。 0915进度 build了 sample场景 根据官方文档进行到build应用和调试工具，没有问题 </description>
+    </item>
     <item>
       <title>About Me</title>
       <link>http://localhost:1313/about/</link>
@@ -17,10 +45,10 @@
       <description>The Present Me: I am a master’s student in Industrial Design at the School of Design, majoring in Industrial Design Engineering. I am also a member of the ai{DEAL}Studio! My research focuses on human-computer interaction (HCI), primarily using computer technology to design and develop applications that aid in education. I occasionally update my WeChat Official Account, sharing insights from my life experiences. 现在的我： 目前，我是南方科技大学设计学院工业设计工程专业的学生。我是 ai{DEAL}Studio 的一名小小硕士研究生！我的研究重点是人机交互，主要使用计算机技术来设计和开发一些支持教育的应用。我偶尔也会更新我的微信公众号（雨天啤酒），分享我的生活感受。&#xA;The Future Me: I aspire to be a creative developer.</description>
     </item>
     <item>
-      <title>ARClassroom</title>
-      <link>http://localhost:1313/project/arclassroom/</link>
+      <title>MRClassroom</title>
+      <link>http://localhost:1313/project/mrclassroom/</link>
       <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/arclassroom/</guid>
+      <guid>http://localhost:1313/project/mrclassroom/</guid>
       <description> 周期：202406 - present 状态： 🏃‍♀️初期探索 </description>
     </item>
     <item>
@@ -28,7 +56,7 @@
       <link>http://localhost:1313/project/novobo/</link>
       <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/novobo/</guid>
-      <description> 日期：202310 - present 状态： ✅定题 ✅开发 🏃‍♀️论文 </description>
+      <description> 日期：202310 - Present 状态： ✅定题 ✅开发 ✅实验 ✅论文 🏃投稿 BLESS: Hope to see u soon, our lovely baby 🥹. </description>
     </item>
     <item>
       <title>为网站获取https协议</title>

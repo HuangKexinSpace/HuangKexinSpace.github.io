@@ -12,7 +12,6 @@ tags:
 - 参考教程： [官方文档](https://open.rayneo.cn/#/docs/x2?name=) - OpenXR Unity ARDK - 最新 -  快速开始 - 开发环境搭建
 1. 安装Unity版本，安装时勾选 andriod build support，如果没勾选也可以安装后在设置的add mdules里再安装。 **（推荐22.3.42f1！其他好几个版本都报错了）** 
 	![pic](../attachments/RayNeoX2_01_环境配置-1.png)
-	
 	![pic](../attachments/RayNeoX2_01_环境配置.png)
 2. 创建3d core template
 	![pic](../attachments/RayNeoX2_01_环境配置-2.png)

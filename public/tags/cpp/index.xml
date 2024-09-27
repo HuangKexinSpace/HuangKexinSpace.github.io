@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cpp on Kexin&#39;s Blog</title>
+    <link>http://localhost:1313/tags/cpp/</link>
+    <description>Recent content in Cpp on Kexin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Athul</copyright>
+    <lastBuildDate>Tue, 17 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CppDairy0917</title>
+      <link>http://localhost:1313/posts/cpp/cpp%E6%97%A5%E8%AE%B00917/</link>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cpp/cpp%E6%97%A5%E8%AE%B00917/</guid>
+      <description>2.3 复合类型 引用 引用必须被初始化，引用即取别名。 指针 </description>
+    </item>
+    <item>
+      <title>CppDairy0916</title>
+      <link>http://localhost:1313/posts/cpp/cpp%E6%97%A5%E8%AE%B00916/</link>
+      <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cpp/cpp%E6%97%A5%E8%AE%B00916/</guid>
+      <description>（我一定要学会写代码，一定会找到自己想做的事，一定能做自己想做的事🥹🥹）&#xA;1.5 类 在头文件person.h中声明类 #ifndef PERSON_H // 防止头文件重复包含 #define PERSON_H #include &amp;lt;string&amp;gt; class Person { public: // 构造函数，参数列表包括名字和年龄 Person(const std::string&amp;amp; name, int age); // 获取名字 std::string getName() const; // 获取年龄 int getAge() const; // 设置名字 void setName(const std::string&amp;amp; name); // 设置年龄 void setAge(int age); private: std::string name; int age; }; #endif // PERSON_H 成员函数即定义在类/方法中的函数。 变量和基本类型 2.1 基本内置类型 2.1.1 算数类型 2.1.2 类型转换 2.1.3 字面值常量 2.2 变量 如果是内置类型的变量未被显式初始化，它的值由定义的位置决定。定义于任何函数体之外的变量被初始化为0，定义在函数体内部的内置类型变量将不被初始化，访问它会出现错误。 声明变量 extern int i; `</description>
+    </item>
+  </channel>
+</rss>

@@ -10,10 +10,10 @@
     <lastBuildDate>Mon, 26 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ARClassroom</title>
-      <link>http://localhost:1313/project/arclassroom/</link>
+      <title>MRClassroom</title>
+      <link>http://localhost:1313/project/mrclassroom/</link>
       <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/arclassroom/</guid>
+      <guid>http://localhost:1313/project/mrclassroom/</guid>
       <description> 周期：202406 - present 状态： 🏃‍♀️初期探索 </description>
     </item>
     <item>
@@ -21,7 +21,7 @@
       <link>http://localhost:1313/project/novobo/</link>
       <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/novobo/</guid>
-      <description> 日期：202310 - present 状态： ✅定题 ✅开发 🏃‍♀️论文 </description>
+      <description> 日期：202310 - Present 状态： ✅定题 ✅开发 ✅实验 ✅论文 🏃投稿 BLESS: Hope to see u soon, our lovely baby 🥹. </description>
     </item>
   </channel>
 </rss>

@@ -7,14 +7,28 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Athul</copyright>
-    <lastBuildDate>Mon, 26 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ar/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ARClassroom</title>
-      <link>http://localhost:1313/project/arclassroom/</link>
+      <title>RayNeoX2_02_Sample功能详解</title>
+      <link>http://localhost:1313/posts/xr_rayneo/rayneox2_02_sample%E5%8A%9F%E8%83%BD%E8%AF%A6%E8%A7%A3/</link>
+      <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/xr_rayneo/rayneox2_02_sample%E5%8A%9F%E8%83%BD%E8%AF%A6%E8%A7%A3/</guid>
+      <description>Refer 官方文档 RayNeoX2_01_环境配置 目录：OpenXR Unity ARDK 最新 - 快速开始 - 导入Sample Sample 功能详解 </description>
+    </item>
+    <item>
+      <title>RayNeoX2_01_环境配置</title>
+      <link>http://localhost:1313/posts/xr_rayneo/rayneox2_01_%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/xr_rayneo/rayneox2_01_%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</guid>
+      <description> 官方文档 开发手册：https://leiniao-ibg.feishu.cn/wiki/OwFfwCpgqiEekBkSRwlcJuRPnoc 环境配置 参考教程： 官方文档 - OpenXR Unity ARDK - 最新 - 快速开始 - 开发环境搭建 安装Unity版本，安装时勾选 andriod build support，如果没勾选也可以安装后在设置的add mdules里再安装。 （推荐22.3.42f1！其他好几个版本都报错了） 创建3d core template 导入雷鸟sdk - 我选择安装包导入，也可以根据文档的从git中导入。 进度 0904进度 熟悉了一下眼镜的使用交互 配mac的unity环境 完成了ARSDK的导入✅ (版本选的22.3.42f1c1，选了其他的好几个版本都狠狠报错了) 然后根据【配置设置】操作，没有遇到什么问题。 0915进度 build了 sample场景 根据官方文档进行到build应用和调试工具，没有问题 </description>
+    </item>
+    <item>
+      <title>MRClassroom</title>
+      <link>http://localhost:1313/project/mrclassroom/</link>
       <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/arclassroom/</guid>
-      <description> 状态：构思中 </description>
+      <guid>http://localhost:1313/project/mrclassroom/</guid>
+      <description> 周期：202406 - present 状态： 🏃‍♀️初期探索 </description>
     </item>
   </channel>
 </rss>
