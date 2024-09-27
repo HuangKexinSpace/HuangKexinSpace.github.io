@@ -13,9 +13,9 @@ tags:
 1. 安装Unity版本，安装时勾选 andriod build support，如果没勾选也可以安装后在设置的add mdules里再安装。 **（推荐22.3.42f1！其他好几个版本都报错了）** 
 	![[RayNeoX2_01_环境配置-1.png]]
 	![[RayNeoX2_01_环境配置.png]]
-
-
-
+2. 创建3d core template
+	![[RayNeoX2_01_环境配置-2.png]]
+3. 
 
 ### 进度
 - 0904进度
