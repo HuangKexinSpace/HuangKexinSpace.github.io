@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XR_RAYNEO/RayNeoX2_02_Sample功能详解.md",
+                "file": "XR_RAYNEO/RayNeoX2_01_环境配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XR_RAYNEO/RayNeoX2_02_Sample功能详解.md"
+                "file": "XR_RAYNEO/RayNeoX2_01_环境配置.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XR_RAYNEO/RayNeoX2_02_Sample功能详解.md",
+                "file": "XR_RAYNEO/RayNeoX2_01_环境配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "XR_RAYNEO/RayNeoX2_02_Sample功能详解.md",
+                "file": "XR_RAYNEO/RayNeoX2_01_环境配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,8 +174,10 @@
   },
   "active": "e4ac848fa5dd219f",
   "lastOpenFiles": [
-    "XR_RAYNEO/RayNeoX2_01_环境配置.md",
+    "XR_RAYNEO/attachments/RayNeoX2_01_环境配置.png",
+    "XR_RAYNEO/attachments",
     "XR_RAYNEO/RayNeoX2_02_Sample功能详解.md",
+    "XR_RAYNEO/RayNeoX2_01_环境配置.md",
     "Cpp/Cpp日记0917.md",
     "Cpp/Cpp日记0916.md",
     "deployment_web/为网站获取https协议.md",

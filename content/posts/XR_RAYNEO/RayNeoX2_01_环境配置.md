@@ -5,8 +5,16 @@ description:
 tags:
   - AR
 ---
-- 官方文档参考：https://open.rayneo.cn/#/docs/x2?name=
+- [官方文档](https://open.rayneo.cn/#/docs/x2?name=)
 - 开发手册：https://leiniao-ibg.feishu.cn/wiki/OwFfwCpgqiEekBkSRwlcJuRPnoc
+
+### 环境配置
+- 参考教程： [官方文档](https://open.rayneo.cn/#/docs/x2?name=) - OpenXR Unity ARDK - 最新 -  快速开始 - 开发环境搭建
+1. 安装Unity版本，安装时勾选 **（推荐22.3.42f1！其他好几个版本都报错了）**
+	![[RayNeoX2_01_环境配置.png]]
+
+
+
 
 ### 进度
 - 0904进度
