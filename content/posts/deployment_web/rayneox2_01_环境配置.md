@@ -16,9 +16,12 @@ tags:
 2. 创建3d core template
 	![pic](../attachments/RayNeoX2_01_环境配置-2.png)
 3. 导入雷鸟sdk - 我选择安装包导入，也可以根据文档的从git中导入。
+	[安装包链接](https://leiniao-ibg.feishu.cn/drive/folder/PrgcfKIiPlxamJdkdRScLaI2nod)（第二个）
+	![pic](../attachments/RayNeoX2_01_环境配置-6.png)
 	![pic](../attachments/RayNeoX2_01_环境配置-3.png)
 	![pic](../attachments/RayNeoX2_01_环境配置-4.png)
-
+	![pic](../attachments/RayNeoX2_01_环境配置-5.png)
+4. 导入成功后会提示重启，chou qi
 
 
 
