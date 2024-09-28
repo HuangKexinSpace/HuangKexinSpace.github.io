@@ -6,8 +6,7 @@ tags:
   - AR
 ---
 - [官方文档](https://open.rayneo.cn/#/docs/x2?name=)
-- 开发手册：https://leiniao-ibg.feishu.cn/wiki/OwFfwCpgqiEekBkSRwlcJuRPnoc
-
+- [开发手册](https://leiniao-ibg.feishu.cn/wiki/OwFfwCpgqiEekBkSRwlcJuRPnoc)：
 ### 环境配置
 - 参考教程： [官方文档](https://open.rayneo.cn/#/docs/x2?name=) - OpenXR Unity ARDK - 最新 -  快速开始 - 开发环境搭建
 	（上述文档写的比较清晰，可以一步一步按照上述文档配，下面是我的配置记录）
@@ -22,7 +21,7 @@ tags:
 	![pic](../attachments/RayNeoX2_01_环境配置-3.png)
 	![pic](../attachments/RayNeoX2_01_环境配置-4.png)
 	![pic](../attachments/RayNeoX2_01_环境配置-5.png)
-4. 导入成功后会提示重启，重启后如果控制台报错，再关掉unity再重启，如果还报错，大概率可能会是unity版本不兼容.....如果不报错，就继续
+4. 导入成功后会提示重启，自动重启后如果控制台报错，再关掉unity再重启，如果还报错，大概率可能会是unity版本不兼容.....如果不报错，就继续🏃‍♀️
 5. 
 
 
