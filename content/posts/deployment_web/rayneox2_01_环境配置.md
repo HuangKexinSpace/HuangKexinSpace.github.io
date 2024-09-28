@@ -17,6 +17,7 @@ tags:
 	![pic](../attachments/RayNeoX2_01_环境配置-2.png)
 3. 导入雷鸟sdk - 我选择安装包导入，也可以根据文档的从git中导入。
 	![pic](../attachments/RayNeoX2_01_环境配置-3.png)
+	![pic](../attachments/RayNeoX2_01_环境配置-4.png)
 
 
 
