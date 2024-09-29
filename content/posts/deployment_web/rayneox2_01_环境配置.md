@@ -79,7 +79,8 @@ android:theme="@style/UnityThemeSelector">
 ### 将 Sample build 到眼镜中
 1. 导入sample，windows - package manager - Rayneo Openxr ardk - Samples - import
 	![pic](../attachments/RayNeoX2_01_环境配置-17.png)
-2. File - Build settings， 然后在Porject栏 
-
+2. File - Build settings， 然后在Porject栏 Samples - RayNeo OpenXR ARDK - Scenes 下面根目录加上两个文件夹中的场景全部拖到Build Settings 页面中的Scenes in Build中。然后点Build。
+	![pic](../attachments/RayNeoX2_01_环境配置-19.png)
+	
 
 
