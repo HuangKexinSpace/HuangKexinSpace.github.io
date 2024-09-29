@@ -77,7 +77,9 @@ android:theme="@style/UnityThemeSelector">
 </manifest>
 ```
 ### 将 Sample build 到眼镜中
-
+1. 导入sample，windows - package manager - Rayneo Openxr ardk - Samples - import
+	![pic](../attachments/RayNeoX2_01_环境配置-17.png)
+2. 
 
 
 
