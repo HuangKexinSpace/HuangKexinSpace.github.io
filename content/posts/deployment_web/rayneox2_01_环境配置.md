@@ -90,9 +90,10 @@ android:theme="@style/UnityThemeSelector">
 	 3. 操作后如果还是报错 清除缓存（mac的在Unity - setting-GI cache里，win的话网上搜一下），重启再build一下。
 	 4. （这个对我很有用！！）可能的解决方法：https://discussions.unity.com/t/failed-to-update-android-sdk-package-list-error-when-using-sdk-installed-with-unity/753351/14 
 - 如果build出一个.apk文件，恭喜！你成功啦！🥳
-### 如何将.apk文件安装到眼镜以及如何进行调试。
-- 安装到眼镜，参考开发者手册的[这部分](https://leiniao-ibg.feishu.cn/wiki/OwFfwCpgqiEekBkSRwlcJuRPnoc)，很详细，没有什么问题。
-- 调试工具，参考文档的这部分，很详细，没有什么w
+### 安装到眼镜以及调试。
+- 安装到眼镜，参考[开发者手册](https://leiniao-ibg.feishu.cn/wiki/OwFfwCpgqiEekBkSRwlcJuRPnoc)的‘’雷鸟X2如何安装应用‘’，很详细，没有什么问题。
+- 调试工具，参考[文档](https://open.rayneo.cn/#/docs/x2?name=)的‘’开发调试工具‘’，很详细，没有什么问题。
+	（我不会说是因为我想偷懒🥹。。。。）
 
 
 
