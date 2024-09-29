@@ -22,7 +22,13 @@ tags:
 	![pic](../attachments/RayNeoX2_01_环境配置-4.png)
 	![pic](../attachments/RayNeoX2_01_环境配置-5.png)
 4. 导入成功后会提示重启，自动重启后如果控制台报错，再关掉unity再重启，如果还报错，大概率可能会是unity版本不兼容.....如果不报错，就继续🏃‍♀️
-5. 
+5. 设置打包到安卓平台 
+	![pic](../attachments/RayNeoX2_01_环境配置-7.png)
+	点switch platform
+	![pic](../attachments/RayNeoX2_01_环境配置-8.png)
+6. 其他配置 edit - project setting
+	![pic](../attachments/RayNeoX2_01_环境配置-9.png)
+	
 
 
 
