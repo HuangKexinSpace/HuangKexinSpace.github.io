@@ -84,6 +84,6 @@ android:theme="@style/UnityThemeSelector">
 	
  * 注意build这一步可能会有很多报错，可能遇到的情况：
  1. 提示选了两个输入方式，只能有一个，根据他的提示关掉一个。
- 2. 安卓platform版本不够，根据他的提示升级版本
+ 2. 安卓platform版本不够，根据他的提示选择升级版本 这里强烈建议平台升级成34，不然可能会出问题。
  3. 操作后如果还是报错 清除缓存（mac的在Unity - setting-GI cache里，win的话网上搜一下），重启再build一下。
 
