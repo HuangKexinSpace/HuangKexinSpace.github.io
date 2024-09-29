@@ -40,10 +40,10 @@ tags:
 	Project setting - player - publish setting -build -勾选custom main manifest
 	![pic](../attachments/RayNeoX2_01_环境配置-15.png)
 	随后可在Unity>Project>Plugin>Android 文件夹下，找到自动生成的AndroidManifest.xml，将该文件的代码替换成：
-		```
+	![pic](../attachments/RayNeoX2_01_环境配置-16.png)
+	```
 	<?xml version="1.0" encoding="utf-8"?> <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.unity3d.player" xmlns:tools="http://schemas.android.com/tools"> <application> <activity android:name="com.rayneo.openxradapter.UnityOpenXrActivity" android:theme="@style/UnityThemeSelector"> <intent-filter> <action android:name="android.intent.action.MAIN" /> <category android:name="android.intent.category.LAUNCHER" /> </intent-filter> <meta-data android:name="unityplayer.UnityActivity" android:value="true" /> </activity> <meta-data android:name="com.rayneo.mercury.app" android:value="true" /> </application> </manifest>
-
-
+	```
 
 
 ### 进度
@@ -55,4 +55,5 @@ tags:
 - 0915进度
 	- build了 sample场景
 	- 根据官方文档进行到build应用和调试工具，没有问题
+
 
