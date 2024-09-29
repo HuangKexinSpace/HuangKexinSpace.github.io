@@ -28,7 +28,10 @@ tags:
 	![pic](../attachments/RayNeoX2_01_环境配置-8.png)
 6. 其他配置 edit - project setting
 	![pic](../attachments/RayNeoX2_01_环境配置-9.png)
-	
+	Player - other settings identification 勾选 重写包名
+	![pic](../attachments/RayNeoX2_01_环境配置-10.png)
+	XR Plug- in Management - 安卓平台下 勾选OpenXR和RayNeo XR feature group.
+	![pic](../attachments/RayNeoX2_01_环境配置-12.png)
 
 
 
