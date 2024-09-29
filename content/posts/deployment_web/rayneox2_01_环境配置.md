@@ -1,6 +1,6 @@
 ---
 title: rayneox2_01_环境配置
-date: 2024-09-27
+date: 2024-09-28
 description:
 tags:
   - AR
@@ -86,7 +86,7 @@ android:theme="@style/UnityThemeSelector">
 	 1. 提示选了两个输入方式，只能有一个，根据他的提示关掉一个。
 	 2. 安卓platform版本不够，根据他的提示选择升级版本 这里建议平台升级成34。
 		 在player - other setting下
-		 ![[RayNeoX2_01_环境配置-20.png]]
+		 ![pic](../attachments/RayNeoX2_01_环境配置-20.png)
 	 3. 操作后如果还是报错 清除缓存（mac的在Unity - setting-GI cache里，win的话网上搜一下），重启再build一下。
 	 4. （这个对我很有用！！）可能的解决方法：https://discussions.unity.com/t/failed-to-update-android-sdk-package-list-error-when-using-sdk-installed-with-unity/753351/14
 	 如果build出一个.apk文件，恭喜！你成功啦！🥳
