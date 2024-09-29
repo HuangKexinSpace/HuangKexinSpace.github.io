@@ -82,5 +82,7 @@ android:theme="@style/UnityThemeSelector">
 2. File - Build settings， 然后在Porject栏 Samples - RayNeo OpenXR ARDK - Scenes 下面根目录加上两个文件夹中的场景全部拖到Build Settings 页面中的Scenes in Build中。然后点Build。
 	![pic](../attachments/RayNeoX2_01_环境配置-19.png)
 	
-
+ * 注意build这一步可能会有很多报错，可能遇到的情况：
+ 1. 提示选了两个输入方式，只能有一个，根据他的提示关掉一个。
+ 2. 安卓platform版本不够，根据他的提示升级版本
 
