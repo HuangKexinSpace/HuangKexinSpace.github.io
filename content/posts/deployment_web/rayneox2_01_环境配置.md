@@ -30,9 +30,10 @@ tags:
 	![pic](../attachments/RayNeoX2_01_环境配置-9.png)
 	Player - other settings identification 勾选 重写包名
 	![pic](../attachments/RayNeoX2_01_环境配置-10.png)
-	XR Plug- in Management - 安卓平台下 勾选OpenXR和RayNeo XR feature group.
+	XR Plug- in Management - 安卓平台下 勾选OpenXR和RayNeo XR feature group 然后点击红色感叹号。
 	![pic](../attachments/RayNeoX2_01_环境配置-12.png)
-
+	点击fix all
+	![pic](../attachments/RayNeoX2_01_环境配置-13.png)
 
 
 
