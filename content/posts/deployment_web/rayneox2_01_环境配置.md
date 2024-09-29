@@ -39,6 +39,10 @@ tags:
 7. **其他设置**（必须）
 	Project setting - player - publish setting -build -勾选custom main manifest
 	![pic](../attachments/RayNeoX2_01_环境配置-15.png)
+	随后可在Unity>Project>Plugin>Android 文件夹下，找到自动生成的AndroidManifest.xml，将该文件的代码替换成：
+		```
+	<?xml version="1.0" encoding="utf-8"?> <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.unity3d.player" xmlns:tools="http://schemas.android.com/tools"> <application> <activity android:name="com.rayneo.openxradapter.UnityOpenXrActivity" android:theme="@style/UnityThemeSelector"> <intent-filter> <action android:name="android.intent.action.MAIN" /> <category android:name="android.intent.category.LAUNCHER" /> </intent-filter> <meta-data android:name="unityplayer.UnityActivity" android:value="true" /> </activity> <meta-data android:name="com.rayneo.mercury.app" android:value="true" /> </application> </manifest>
+
 
 
 
