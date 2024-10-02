@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "deployment_web/RayNeoX2_01_环境配置.md",
+                "file": "deployment_web/C夏笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "deployment_web/RayNeoX2_01_环境配置.md"
+                "file": "deployment_web/C夏笔记.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "deployment_web/RayNeoX2_01_环境配置.md",
+                "file": "deployment_web/C夏笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "deployment_web/RayNeoX2_01_环境配置.md",
+                "file": "deployment_web/C夏笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,12 +174,14 @@
   },
   "active": "e4ac848fa5dd219f",
   "lastOpenFiles": [
+    "Cpp/Cpp日记0917.md",
+    "deployment_web/C夏笔记.md",
+    "deployment_web/RayNeoX2_01_环境配置.md",
     "deployment_web/attachments/RayNeoX2_01_环境配置-20.png",
     "deployment_web/attachments/RayNeoX2_01_环境配置-19.png",
     "deployment_web/attachments/RayNeoX2_01_环境配置-18.png",
     "deployment_web/attachments/RayNeoX2_01_环境配置-17.png",
     "deployment_web/RayNeoX2_02_Sample功能详解.md",
-    "deployment_web/RayNeoX2_01_环境配置.md",
     "deployment_web/为网站获取https协议.md",
     "deployment_web/attachments/RayNeoX2_01_环境配置-16.png",
     "deployment_web/attachments/RayNeoX2_01_环境配置-15.png",
@@ -187,11 +189,9 @@
     "deployment_web/attachments/RayNeoX2_01_环境配置-13.png",
     "deployment_web/attachments/RayNeoX2_01_环境配置-12.png",
     "deployment_web/attachments/RayNeoX2_01_环境配置-11.png",
-    "deployment_web/attachments/RayNeoX2_01_环境配置-10.png",
     "XR_RAYNEO/rayneox2_01_环境配置.md",
     "XR_RAYNEO/RayNeoX2_02_Sample功能详解.md",
     "XR_RAYNEO/attachments",
-    "Cpp/Cpp日记0917.md",
     "Cpp/Cpp日记0916.md",
     "Cpp",
     "XR_RAYNEO",
