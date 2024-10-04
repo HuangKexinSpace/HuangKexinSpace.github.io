@@ -1,10 +1,9 @@
 ---
-title: 开发学习日记1003 - 复合数据类型
+title: 开发学习1003 - 复合数据类型、const限定符
 date: 2024-10-03
 description:
 tags:
   - Cpp
-  - 力扣题
 ---
 # Cpp
 ## 2.3  复合数据类型
