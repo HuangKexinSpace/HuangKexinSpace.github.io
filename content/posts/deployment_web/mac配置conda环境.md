@@ -14,6 +14,7 @@ conda：类似于pip的包管理器，用于创建和管理虚拟环境，因为
 ### 环境配置
 reference：[YoutubeTutorial](https://www.youtube.com/watch?v=drbaFALFKDg)
 - 在[官网](https://www.anaconda.com/)上freedownload mac版本，一路向前安装到底。
+- 然后在终端用conda指令创建环境
 ### conda 指令
 
 创建：conda create —name xxx python=…
