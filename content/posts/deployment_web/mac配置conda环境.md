@@ -17,7 +17,6 @@ reference：[YoutubeTutorial](https://www.youtube.com/watch?v=drbaFALFKDg)
 - 然后在终端用conda指令创建环境
 - 然后在anacoanaconda中选择环境后，launch vscode （需要提前安装vscode）～就进入对应的环境啦。
 ### conda 指令
-
 创建：conda create —name xxx python=…
 删除：conda remove -n EnvName - -all
 进入：conda activate EnvName
