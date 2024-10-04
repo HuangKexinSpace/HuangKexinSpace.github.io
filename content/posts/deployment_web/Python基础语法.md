@@ -10,3 +10,4 @@ tags:
 # step是步长
 list[start:end:step] 
 ```
+- for i in range (a,b) 左闭右开
