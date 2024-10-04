@@ -14,4 +14,9 @@ conda：类似于pip的包管理器，用于创建和管理虚拟环境，因为
 ### 环境配置
 reference：[YoutubeTutorial](https://www.youtube.com/watch?v=drbaFALFKDg)
 - 在[官网](https://www.anaconda.com/)上freedownload mac版本，一路向前安装到底。
-- 
+### conda 指令
+
+创建：conda create —name xxx python=…
+删除：conda remove -n EnvName - -all
+进入：conda activate EnvName
+退出：conda deactivate
