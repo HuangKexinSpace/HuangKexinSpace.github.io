@@ -6,4 +6,5 @@ tags:
   - other
 ---
 reference：[YoutubeTutorial](https://www.youtube.com/watch?v=drbaFALFKDg)
-- 在[官网](https://www.anaconda.com/)上freedownload mac版本
+- 在[官网](https://www.anaconda.com/)上freedownload mac版本，一路向前安装到底。
+- 
