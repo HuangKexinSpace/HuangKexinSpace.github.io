@@ -11,3 +11,5 @@ tags:
 list[start:end:step] 
 ```
 - for i in range (a,b) 左闭右开
+- 升序排列函数
+	- sorted(list, reverse = True)
