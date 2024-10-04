@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "deployment_web/开发学习1004.md",
+                "file": "deployment_web/Python基础语法.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "deployment_web/开发学习1004.md"
+                "file": "deployment_web/Python基础语法.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "deployment_web/开发学习1004.md",
+                "file": "deployment_web/Python基础语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "deployment_web/开发学习1004.md",
+                "file": "deployment_web/Python基础语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,10 +161,12 @@
   },
   "active": "e4ac848fa5dd219f",
   "lastOpenFiles": [
-    "deployment_web/开发学习1003 - 复合数据类型、const限定符.md",
-    "deployment_web/开发学习1004.md",
-    "deployment_web/Csharp笔记.md",
+    "deployment_web/Csharp基础语法.md",
+    "deployment_web/Python基础语法.md",
+    "deployment_web/Cpp1004.md",
+    "deployment_web/Cpp1003 - 复合数据类型、const限定符.md",
     "deployment_web/RayNeoX2_01_环境配置.md",
+    "deployment_web/为网站获取https协议.md",
     "deployment_web/RayNeoX2_02_Sample功能详解.md",
     "Cpp/Cpp日记0916.md",
     "Cpp/Cpp日记0917.md",
@@ -172,7 +174,6 @@
     "deployment_web/attachments/RayNeoX2_01_环境配置-19.png",
     "deployment_web/attachments/RayNeoX2_01_环境配置-18.png",
     "deployment_web/attachments/RayNeoX2_01_环境配置-17.png",
-    "deployment_web/为网站获取https协议.md",
     "deployment_web/attachments/RayNeoX2_01_环境配置-16.png",
     "deployment_web/attachments/RayNeoX2_01_环境配置-15.png",
     "deployment_web/attachments/RayNeoX2_01_环境配置-14.png",

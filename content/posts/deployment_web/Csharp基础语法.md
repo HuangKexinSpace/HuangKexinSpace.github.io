@@ -1,5 +1,5 @@
 ---
-title: C#快速学习笔记
+title: C#基础语法
 date: 2024-10-02
 description:
 tags:
