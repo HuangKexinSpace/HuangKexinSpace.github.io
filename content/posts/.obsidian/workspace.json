@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d3714116681ff86c",
+        "id": "7415e750c5b4a005",
         "type": "tabs",
         "children": [
           {
-            "id": "e4ac848fa5dd219f",
+            "id": "73e6cd7ef7a0ba40",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -159,10 +159,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e4ac848fa5dd219f",
+  "active": "73e6cd7ef7a0ba40",
   "lastOpenFiles": [
-    "deployment_web/为网站获取https协议.md",
+    "().md",
     "deployment_web/mac配置conda环境.md",
+    "deployment_web/为网站获取https协议.md",
     "deployment_web/Leetcode - 代码随想录 - 数组.md",
     "deployment_web/Python基础语法.md",
     "deployment_web/RayNeoX2_01_环境配置.md",
@@ -188,7 +189,6 @@
     "Cpp",
     "XR_RAYNEO",
     "hi.md",
-    "().md",
     "deployment_web/attachments",
     "未命名.canvas",
     "Cpp/attachments",
