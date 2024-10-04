@@ -7,5 +7,6 @@ tags:
 ---
 - 切片
 ```python
+# step是步长
 list[start:end:step] 
 ```
