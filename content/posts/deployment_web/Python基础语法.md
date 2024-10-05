@@ -13,3 +13,9 @@ list[start:end:step]
 - for i in range (a,b) 左闭右开
 - 升序排列函数
 	- sorted(list, reverse = True)
+- 取最小值
+```python
+list = [1,2,3]
+min(1,2,3)
+min(list)
+```
