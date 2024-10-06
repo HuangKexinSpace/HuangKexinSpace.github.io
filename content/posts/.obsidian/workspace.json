@@ -18,8 +18,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9139afe5443c9952",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "content/.DS_Store",
+                "staged": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "deployment_web/Cpp1005 - 标准库类型string.md"
-              }
+              "state": {}
             }
           },
           {
@@ -95,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "deployment_web/Cpp1005 - 标准库类型string.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +121,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "deployment_web/Cpp1005 - 标准库类型string.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,15 +167,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "73e6cd7ef7a0ba40",
+  "active": "9139afe5443c9952",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "deployment_web/Cpp1005 - 标准库类型string.md",
+    "Cpp/Cpp0916.md",
     "deployment_web/Python基础语法.md",
     "deployment_web/mac配置conda环境.md",
     "deployment_web/为网站获取https协议.md",
-    "deployment_web/Cpp1005 - 标准库类型string.md",
     "deployment_web/Cpp1004 - const限定符号、处理类型.md",
     "Cpp/Cpp日记0916.md",
-    "Cpp/Cpp0916.md",
     "deployment_web/Cpp1003 - 复合数据类型、const限定符.md",
     "deployment_web/Leetcode - 代码随想录 - 数组.md",
     "deployment_web/Csharp基础语法.md",
