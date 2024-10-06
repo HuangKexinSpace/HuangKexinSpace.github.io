@@ -10,3 +10,4 @@ tags:
 for (declaration:expression)
 	statement
 ```
+- 下标运算符：s[0] 代表第一个字符
