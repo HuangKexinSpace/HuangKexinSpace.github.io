@@ -22,4 +22,4 @@ From GPT：通俗地说，vector 是 C++ 中的**动态数组**，它可以自�
 - begin 和 end 运算符：若对象是常量，begin和end返回const_iterator; 若不是常量，返回iterator。
 - cbegin，cend 返回const_iterator。
 - -> 解引用+成员访问
-## 数组
+
