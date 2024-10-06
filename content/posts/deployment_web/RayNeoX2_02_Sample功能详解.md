@@ -1,5 +1,5 @@
 ---
-title: RayNeoX2_02_Sample功能详解
+title: 【0926更新】RayNeoX2_02_Sample功能详解
 date: 2024-09-26
 description: 
 tags:

@@ -1,5 +1,5 @@
 ---
-title: python基础语法
+title: 【1004更新】python基础语法
 date: 2024-10-04
 description:
 tags:
