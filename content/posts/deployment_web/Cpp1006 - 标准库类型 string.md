@@ -7,5 +7,6 @@ tags:
 ---
 - 处理字符串中的每个字符
 ```cpp
-for (declaration)
+for (declaration:expression)
+	statement
 ```
