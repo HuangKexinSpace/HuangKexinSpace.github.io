@@ -1,5 +1,5 @@
 ---
-title: 1005Cpp - 标准库类型string、vector
+title: 1006Cpp - 标准库类型string、vector
 date: 2024-10-06
 description:
 tags:
