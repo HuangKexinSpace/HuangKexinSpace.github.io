@@ -1,5 +1,5 @@
 ---
-title: Cpp1005 - 标准库类型string
+title: 1005Cpp - 标准库类型string
 date: 2024-10-05
 description:
 tags:
