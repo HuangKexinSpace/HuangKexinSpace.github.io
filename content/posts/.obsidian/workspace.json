@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "deployment_web/Cpp1006 - 标准库类型 string.md",
+                "file": "deployment_web/Cpp1006 - 标准库类型 string、vector.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "deployment_web/Cpp1006 - 标准库类型 string.md"
+                "file": "deployment_web/Cpp1006 - 标准库类型 string、vector.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "deployment_web/Cpp1006 - 标准库类型 string.md",
+                "file": "deployment_web/Cpp1006 - 标准库类型 string、vector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "deployment_web/Cpp1006 - 标准库类型 string.md",
+                "file": "deployment_web/Cpp1006 - 标准库类型 string、vector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
   "active": "9139afe5443c9952",
   "lastOpenFiles": [
     "deployment_web/Cpp1005 - 标准库类型string.md",
-    "deployment_web/Cpp1006 - 标准库类型 string.md",
+    "deployment_web/Cpp1006 - 标准库类型 string、vector.md",
     "deployment_web/RayNeoX2_02_Sample功能详解.md",
     "deployment_web/RayNeoX2_01_环境配置.md",
     "deployment_web/Python基础语法.md",

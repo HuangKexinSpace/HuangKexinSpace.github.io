@@ -1,5 +1,5 @@
 ---
-title: 1005Cpp - 标准库类型string
+title: 1005Cpp - 标准库类型string、vector
 date: 2024-10-06
 description:
 tags:
@@ -11,3 +11,4 @@ for (declaration:expression)
 	statement
 ```
 - 下标运算符：s[0] 代表第一个字符
+## 3.3 标准库类型vector
