@@ -18,3 +18,5 @@ From GPT：通俗地说，vector 是 C++ 中的**动态数组**，它可以自�
 ## 3.4 迭代器
 - v.begin()  表示v的第一个元素，若v为空，则它是尾元素的下一位元素。
 - v.end() 表示v尾元素的下一位元素，即尾后迭代器。
+- 迭代器类型：iterator 能读写元素 const_iterator 只能读不能写。
+- begin 和 end 运算符：
