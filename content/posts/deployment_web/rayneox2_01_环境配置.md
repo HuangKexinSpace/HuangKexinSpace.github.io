@@ -92,7 +92,7 @@ android:theme="@style/UnityThemeSelector">
 - 如果build出一个.apk文件，恭喜！你成功啦！🥳
 ### 安装到眼镜以及调试。
 - 安装到眼镜，参考[开发者手册](https://leiniao-ibg.feishu.cn/wiki/OwFfwCpgqiEekBkSRwlcJuRPnoc)的‘’雷鸟X2如何安装应用‘’，很详细，没有什么问题。
-	-  https://open.rayneo.cn/#/webadb
+	- lian shang https://open.rayneo.cn/#/webadb
 	
 - 调试工具，参考[文档](https://open.rayneo.cn/#/docs/x2?name=)的‘’开发调试工具‘’，很详细，没有什么问题。
 	- 我用的Scrcpy，在文件夹空余位置按住shift并右键唤出powershell
