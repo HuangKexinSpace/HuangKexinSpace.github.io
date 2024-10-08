@@ -1,5 +1,5 @@
 ---
-title: 0928rayneox2_01_环境配置
+title: rayneox2_01_环境配置
 date: 2024-09-28
 description:
 tags:
