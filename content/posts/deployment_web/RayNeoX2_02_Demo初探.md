@@ -1,5 +1,5 @@
 ---
-title: RayNeoX2_02_Demo初探：F
+title: RayNeoX2_02_Demo初探、6dof
 date: 2024-10-09
 description: 
 tags:
@@ -25,6 +25,9 @@ tags:
 	![pic](../attachments/RayNeoX2_02_Demo初探-4.png)
 
 - 打包及投屏测试可以参考 [RayNeoX2_01_环境配置](https://huangkexinspace.github.io/posts/xr_rayneo/rayneox2_01_%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/)
+## 6dof功能
+- 目前我的理解：
+	- Unity中必须要有相机，
 
 	
 	
