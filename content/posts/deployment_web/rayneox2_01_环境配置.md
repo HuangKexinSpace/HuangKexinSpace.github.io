@@ -91,7 +91,7 @@ android:theme="@style/UnityThemeSelector">
 	 4. （这个对我很有用！！）可能的解决方法：https://discussions.unity.com/t/failed-to-update-android-sdk-package-list-error-when-using-sdk-installed-with-unity/753351/14 
 - 如果build出一个.apk文件，恭喜！你成功啦！🥳
 - 注意，每次build需要改包名，不然有同名的话，安装的时候安装不上。
-	- 修改包名：在player setting - Player 最上面第二行 - Pro
+	- 修改包名：Build 页面中 - player setting - Player 栏 最上面第二行 - Product Name。
 ### 安装到眼镜以及调试。
 - 安装到眼镜，参考[开发者手册](https://leiniao-ibg.feishu.cn/wiki/OwFfwCpgqiEekBkSRwlcJuRPnoc)的‘’雷鸟X2如何安装应用‘’，很详细，没有什么问题。
 	- 连上眼镜的数据线后，在这个网页上安装： https://open.rayneo.cn/#/webadb
