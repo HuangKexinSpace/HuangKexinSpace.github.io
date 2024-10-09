@@ -27,7 +27,7 @@ tags:
 - 打包及投屏测试可以参考 [RayNeoX2_01_环境配置](https://huangkexinspace.github.io/posts/xr_rayneo/rayneox2_01_%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/)
 ## 6dof功能
 - 目前我的理解：
-	- Unity中必须要有相机，
+	- Unity中必须要有相机，如果只是3D游戏，那么就用的是Unity内置的Camera。但XR设备总是有自己的摄像头的，因此它们通常需要自己的相机接口，所以每个XR设备的相机都不一样，我们需要k
 
 	
 	
