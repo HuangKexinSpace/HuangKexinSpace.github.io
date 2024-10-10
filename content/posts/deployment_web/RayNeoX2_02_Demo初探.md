@@ -34,4 +34,5 @@ tags:
 - 目前就是看Samples中的代码，看它6dof的实现代码。
 ## 内置脚本描述
 ### double Tab Back Scene Ctrl
-功能：shu
+功能：双击返回“Entry”场景
+用法：挂载到空的GameObject上
