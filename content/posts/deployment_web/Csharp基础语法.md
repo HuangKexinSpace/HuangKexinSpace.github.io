@@ -32,3 +32,20 @@ Unity 使用 C# 脚本中的特殊方法来控制脚本的执行逻辑，这些�
 在你的代码中，SimpleTouch.Instance.OnDoubleTap.AddListener(OnDoubleTapCallBack); 的作用是为双击事件添加一个监听器。当事件被触发时，Unity 会自动调用你定义的 OnDoubleTapCallBack() 方法。这个事件监听机制与传统 C# 的事件机制类似，但由于 Unity 提供了一些特定的工具类和 API，使得这种操作更加简化和高效。
 **总结**
 在 Unity 中，脚本只需要挂载到 GameObject 上，就等于完成了实例化和初始化的过程。Unity 会管理脚本实例的生命周期，并自动调用这些生命周期方法，因此你不需要像传统 C# 那样显式地创建对象。所有这些都使得开发过程更加简单直观，同时也保持了灵活性。
+## Q2
+public class SlamDemoCtrl : MonoBehaviour 这行：后面的是啥
+## A2
+在这行代码中：
+public class SlamDemoCtrl : MonoBehaviour
+这里定义了一个名为 SlamDemoCtrl 的类，后面的 : MonoBehaviour 表示这个类继承自 MonoBehaviour。让我们详细解释一下：
+	: MonoBehaviour：
+	•	: 表示继承关系。在 C# 中，当一个类后面紧跟着一个冒号和另一个类的名字时，表示这个类继承了后面提到的类。
+	•	MonoBehaviour 是 Unity 中的一个基础类，所有要附加到 GameObject 上的脚本类都应该继承自它。通过继承 MonoBehaviour，这个类就能够利用 Unity 特有的功能，如生命周期方法（Start()、Update() 等）和与 Unity 引擎的交互。
+
+为什么继承 MonoBehaviour 很重要
+继承 MonoBehaviour 是让一个类在 Unity 中能正常作为脚本组件使用的关键。只有继承了 MonoBehaviour 的类才能：
+	•	被添加到 GameObject 作为组件。
+	•	使用 Unity 提供的特殊方法，例如 Start()、Update()、OnDestroy()、Awake() 等生命周期方法。
+	•	使用 Unity 提供的各种 API 和功能，例如协程（Coroutines）、物理操作、碰撞检测、脚本间通信等。
+小结
+在 public class SlamDemoCtrl : MonoBehaviour 中，SlamDemoCtrl 这个类通过继承 MonoBehaviour，获得了 Unity 中所有脚本组件的特性和能力。这使得它可以被挂载到 GameObject 上，并在场景中与其他组件交互。
