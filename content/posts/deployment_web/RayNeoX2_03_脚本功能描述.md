@@ -14,9 +14,10 @@ using UnityEngine.SceneManagement;
 
 public class DoubleTabBackSceneCtrl : MonoBehaviour
 {
-//双击方法
+//构造了一个方法，双击就退出到“Entry”场景
     public void OnDoubleTapCallBack()
     {
+    //加载”Entry“场景
         SceneManager.LoadScene("Entry");
     }
     void Start()
