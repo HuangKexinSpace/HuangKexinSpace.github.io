@@ -22,10 +22,12 @@ public class DoubleTabBackSceneCtrl : MonoBehaviour
     }
     void Start()
     {
+    //这句是为双击添加监听器，当触发双击后执行OnDoubleCallBAck这个函数
         SimpleTouch.Instance.OnDoubleTap.AddListener(OnDoubleTapCallBack);
     }
     private void OnDestroy()
     {
+    //移除监视器到常规操作
         if (SimpleTouch.SingletonExist)
         {
             SimpleTouch.Instance.OnDoubleTap.RemoveListener(OnDoubleTapCallBack);
