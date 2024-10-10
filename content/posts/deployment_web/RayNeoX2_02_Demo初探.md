@@ -32,7 +32,4 @@ tags:
 - 目前从“构建第一个XR应用”中发现，雷鸟的camera就是在**XR Plugin**中。
 	![pic](../attachments/RayNeoX2_02_Demo初探-5.png)
 - 目前就是看Samples中的代码，看它6dof的实现代码。
-## 内置脚本描述
-### double Tab Back Scene Ctrl
-功能：双击返回“Entry”场景
-用法：挂载到空的GameObject上
+
