@@ -1,5 +1,5 @@
 ---
-title: RayNeoX2_03_脚本功能描述
+title: RayNeoX2_03_脚本功能描述-Slam
 date: 2024-10-10
 description: 
 tags:
@@ -41,5 +41,4 @@ public class DoubleTabBackSceneCtrl : MonoBehaviour
 ## SlamDemoCtrl
 - 空Object 位置000
 ### Slam Demo Ctrl
-![pic](../attachments/RayNeoX2_02_Demo初探.png)
-![[RayNeoX2_03_脚本功能描述.png]]
+![pic](../attachments/RayNeoX2_03_脚本功能描述.png)
