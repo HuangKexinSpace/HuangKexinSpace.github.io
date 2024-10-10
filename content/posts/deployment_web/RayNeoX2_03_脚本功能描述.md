@@ -64,6 +64,7 @@ public class SlamDemoCtrl : MonoBehaviour
     //关闭slam
         Algorithm.DisableSlamHeadTracker();
     }
+    //创建满屏的cube
     private void CreateCubes()
     {
 //中心点为长度的一半
@@ -73,7 +74,9 @@ public class SlamDemoCtrl : MonoBehaviour
         {
             for (int j = 0; j < m_LineCount; j++)
             {
+            //Instantiate是Unity中用来创建对象的方法
                 var c = Instantiate(m_Cube);
+			//设置空间位置
                 c.transform.position = new Vector3(m_CubeSpace * (i - centerPoint), m_Cube.transform.position.y, (m_CubeSpace * (j - centerPoint)));
 
             }
