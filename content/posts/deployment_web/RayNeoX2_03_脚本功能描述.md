@@ -5,7 +5,8 @@ description:
 tags:
   - AR
 ---
-## 内置脚本描述
+# Slam Demo 内置脚本描述
+## GameObject
 ### double Tab Back Scene Ctrl
 ```c#
 using UnityEngine;
@@ -27,7 +28,7 @@ public class DoubleTabBackSceneCtrl : MonoBehaviour
     }
     private void OnDestroy()
     {
-    //移除监视器到常规操作
+    //移除监视器的常规操作
         if (SimpleTouch.SingletonExist)
         {
             SimpleTouch.Instance.OnDoubleTap.RemoveListener(OnDoubleTapCallBack);
@@ -37,3 +38,8 @@ public class DoubleTabBackSceneCtrl : MonoBehaviour
 ```
 功能：双击返回“Entry”场景
 用法：挂载到空的GameObject上
+## SlamDemoCtrl
+- 空Object 位置000
+### Slam Demo Ctrl
+![pic](../attachments/RayNeoX2_02_Demo初探.png)
+![[RayNeoX2_03_脚本功能描述.png]]
