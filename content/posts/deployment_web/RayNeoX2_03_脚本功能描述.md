@@ -90,10 +90,12 @@ public class SlamDemoCtrl : MonoBehaviour
 
 ```
 
-# Entry场景 脚本描述
-
-
-
-
+# Entry场景 退出场景脚本描述
+- 退出代码：
+```c#
+using UnityEngine;
+//关闭应用代码
+Application.Quit();
+```
 # FacialRecog 内置脚本描述
 
