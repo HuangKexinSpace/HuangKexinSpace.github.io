@@ -89,3 +89,5 @@ public class SlamDemoCtrl : MonoBehaviour
 }
 
 ```
+# FacialRecog 内置脚本描述
+
