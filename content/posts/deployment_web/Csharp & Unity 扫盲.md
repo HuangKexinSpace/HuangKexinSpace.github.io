@@ -1,5 +1,5 @@
 ---
-title: 【1011更新】C#基础语法
+title: 【1011更新】Csharp & Unity 扫盲
 date: 2024-10-02
 description:
 tags:
@@ -46,3 +46,9 @@ public class SlamDemoCtrl : MonoBehaviour
 	•	被添加到 GameObject 作为组件。
 	•	使用 Unity 提供的特殊方法，例如 Start()、Update()、OnDestroy()、Awake() 等生命周期方法。
 	•	使用 Unity 提供的各种 API 和功能，例如协程（Coroutines）、物理操作、碰撞检测、脚本间通信等。
+## Q3
+我有一个Unity命名问题 为啥我在脚本中写的public GameObject m_PlaneDectection, 但是挂载在object面板上的名字就没有m_了呢？ 就只是PlaneDection？
+## A3
+在Unity中，变量名的显示方式在脚本和Inspector（检查器）面板中有所不同。即使在脚本中定义了带有前缀的变量名（比如 m_PlaneDetection），Unity 通常会在 Inspector 中自动移除这种前缀，以保持字段名更简洁和易读。
+这是 Unity 的设计选择，目的是让 Inspector 中的变量更直观。Unity 会去掉常见的前缀（如 m_、_ 等），只保留主要的变量名。所以在 Inspector 中，你会看到变量名是 PlaneDetection，而不是带有前缀的形式。
+如果你想在 Inspector 中显示带有前缀的变量名，可以使用 [SerializeField] 属性并手动重命名该字段。不过，这种做法一般不推荐，因为它会降低代码和 Inspector 的可读性。
