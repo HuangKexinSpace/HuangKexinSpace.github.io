@@ -1,5 +1,5 @@
 ---
-title: RayNeoX2_03_脚本功能描述-Slam
+title: RayNeoX2_03_脚本功能描述-Slam,退出应用
 date: 2024-10-10
 description: 
 tags:
@@ -89,5 +89,11 @@ public class SlamDemoCtrl : MonoBehaviour
 }
 
 ```
+
+# Entry场景 脚本描述
+
+
+
+
 # FacialRecog 内置脚本描述
 
