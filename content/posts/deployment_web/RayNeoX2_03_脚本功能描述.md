@@ -64,7 +64,7 @@ public class SlamDemoCtrl : MonoBehaviour
     //关闭slam
         Algorithm.DisableSlamHeadTracker();
     }
-    //创建满屏的cube
+    //动态创建满屏的cube
     private void CreateCubes()
     {
 //中心点为长度的一半
