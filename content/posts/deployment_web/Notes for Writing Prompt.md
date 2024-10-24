@@ -14,9 +14,9 @@ Reference: [我是如何赢得GPT-4提示工程大赛冠军的](https://mp.weixi
 	- audience：目标受众
 	- response：响应的格式，理想格式应该是json
 2. 使用分隔符：
-	-  # # # content # # # 
-	- <<< content >>>
-	- < a > content < / a >
+	-  “### content ###”
+	- “<<< content >>>”
+	- “< a > content < /a >”
 3. 使用LLM防护围栏创建系统提示：即利用不同区域的prompt
 4. LLM的数据分析
 	- 不擅长
