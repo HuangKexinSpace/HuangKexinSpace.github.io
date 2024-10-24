@@ -13,4 +13,8 @@ Reference: [我是如何赢得GPT-4提示工程大赛冠军的](https://mp.weixi
 	- tone：语气
 	- audience：目标受众
 	- response：响应的格式，理想格式应该是json
-2. 使用分隔符，例如### content ### or <<< content >>>
+2. 使用分隔符：
+	-  # # # content # # # 
+	- <<< content >>>
+	- < a > content < / a >
+3. 
