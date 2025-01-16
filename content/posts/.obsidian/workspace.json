@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "Unity 通信"
             }
+          },
+          {
+            "id": "dc3e20d7bee10769",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -206,7 +218,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b8cb2f50752a9a3f",
+  "active": "dc3e20d7bee10769",
   "lastOpenFiles": [
     "deployment_web/Cpp1003 - 复合数据类型、const限定符.md",
     "deployment_web/Unity 通信.md",
