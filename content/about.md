@@ -1,7 +1,7 @@
 +++
 title = "About Me"
 description = " "
-date = "2024-08-27"
+date = "2025-02-26"
 aliases = ["about-us","about-hugo","contact"]
 author = "Hugo Authors"
 +++
@@ -10,9 +10,9 @@ author = "Hugo Authors"
 
 **现在的我：** 目前，我是南方科技大学设计学院工业设计工程专业的学生。我是 ai{DEAL}Studio 的一名小小硕士研究生！我的研究重点是人机交互，主要使用计算机技术来设计和开发一些支持教育的应用。我偶尔也会更新我的微信公众号（雨天啤酒），分享我的生活感受。
     
-- **The Future Me:** I aspire to be a creative developer. I want to develop interesting applications, games etc.
+- **The Future Me:** I aspire to be a HCI Researcher. I want to design and develo.
     
-**未来的我：** 我希望成为一名有意思的开发者。我希望我的作品可以是有趣的应用、游戏或任何其他什么小东西。
+**未来的我：** 我希望成为一名HCI Researcher。我希望我的作品可以是有趣的应用、游戏或任何其他什么小东西。
 
 # EDUCATION
 
