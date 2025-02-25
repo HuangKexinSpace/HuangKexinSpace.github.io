@@ -19,13 +19,13 @@ author = "Hugo Authors"
 
 # RESEARCH
 
-A Super Teacher(202410 - Present)
+**A Super Teacher(202410 - Present)**
 
 
 **Visiobo: A Multimodal Embodied Agent for Enhancing the Interactive Poster Reading Experience (202412 - 202501)**
 
 
-**- Novobo: An AI Virtual Teacher Passionate About Learning Teaching Gestures (202310 - 202409)**
+**Novobo: An AI Virtual Teacher Passionate About Learning Teaching Gestures (202310 - 202409)**
 
 
 # PUBLICATIONS
