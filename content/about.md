@@ -23,6 +23,7 @@ author = "Hugo Authors"
 
 - Novobo: An AI Virtual Teacher Passionate About Learning Teaching Gestures (202310 - 202409)
 
+# PUBLICATIONS
 
 # SKILL
 
