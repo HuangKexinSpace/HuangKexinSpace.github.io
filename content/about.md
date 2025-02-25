@@ -1,14 +1,14 @@
 +++
-title = "About Me"
+title = "CV"
 description = " "
 date = "2025-02-26"
 aliases = ["about-us","about-hugo","contact"]
 author = "Hugo Authors"
 +++
 
--  **The Present Me:** I am a master’s student at SUSTech School of Design, majoring in Industrial Design Engineering. I am also a member of the [ai{DEAL}Studio](https://www.anpengcheng.cn/). My research field is human-computer interaction, and I am currently exploring the use of AI to support education and learning.
+-  **The Present Me:** I am a master's student at SUSTech School of Design, majoring in Industrial Design Engineering. I am also a member of the [ai{DEAL}Studio](https://www.anpengcheng.cn/). My research field is human-computer interaction, and I am currently exploring the use of AI to support education and learning.
 
-**现在的我：** 目前，我是南方科技大学设计学院工业设计工程专业的硕士生，同样也是是 ai{DEAL}Studio 的一名成员。我的研究重点是人机交互，目前正在探索用AI支持教育和学习。
+**现在的我：** 目前，我是南方科技大学设计学院工业设计工程专业的硕士生，同样也是是 ai{DEAL}Studio 的一名成员。我的研究重点是人机交互, 目前正在探索用AI支持教育和学习。
 
 # EDUCATION
 
@@ -17,11 +17,11 @@ author = "Hugo Authors"
 
 # RESEARCH
 
-- A Super Teacher（202410   -   Present）   
+- A Super Teacher(202410 - Present)   
 
-- Visiobo: A Multimodal Embodied Agent for Enhancing the Interactive Poster Reading Experience （202412 - 202501）
+- Visiobo: A Multimodal Embodied Agent for Enhancing the Interactive Poster Reading Experience (202412 - 202501)
 
-- Novobo: An AI Virtual Teacher Passionate About Learning Teaching Gestures（202310 - 202409）
+- Novobo: An AI Virtual Teacher Passionate About Learning Teaching Gestures (202310 - 202409)
 
 # PUBLICATIONS
 
@@ -38,6 +38,3 @@ author = "Hugo Authors"
 
 - **Figma:** Basic UI/UX design skills.
 - **Unity:** Basic usage.
-
-
-
