@@ -21,21 +21,24 @@ author = "Hugo Authors"
 
 # RESEARCH
 
-- A Super Teacher（202406   -   Present）   
+- A Super Teacher（202410   -   Present）   
 一个超级教师
 
-- Visiobo: A Multimodal Embodied Agent for Enhancing the Interactive Poster Reading Experience （202411 - 202502）
+- Visiobo: A Multimodal Embodied Agent for Enhancing the Interactive Poster Reading Experience （202412 - 202501）
 小视：一个增强交互式海报阅读的多模态具身代理
 
 - Novobo: An AI Virtual Teacher Passionate About Learning Teaching Gestures（202310 - 202409）
-小新：一个对教学手势感兴趣的新手教师                   
-    
+小新：一个对教学手势感兴趣的新手教师  
+
+# PUBLICATIONS
+
+
 # SKILL
 
 **Programming Skills:**
 
 - **Python:** Basic usage.
-- **C#:** Write simple scripts with the assistance of AI.
+- **C#:** Basic usgae.
 - **Javascript/HTML/CSS:** Write minor features with the assistance of AI.
 
 **Development Tools:**
