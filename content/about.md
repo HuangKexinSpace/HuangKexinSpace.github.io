@@ -10,9 +10,9 @@ author = "Hugo Authors"
 
 **现在的我：** 目前，我是南方科技大学设计学院工业设计工程专业的学生。我是 ai{DEAL}Studio 的一名小小硕士研究生！我的研究重点是人机交互，主要使用计算机技术来设计和开发一些支持教育的应用。我偶尔也会更新我的微信公众号（雨天啤酒），分享我的生活感受。
     
-- **The Future Me:** I aspire to be a HCI Researcher. I want to design and develo.
+- **The Future Me:** I aspire to be a HCI Researcher. I want to design and develop something interesting.
     
-**未来的我：** 我希望成为一名HCI Researcher。我希望我的作品可以是有趣的应用、游戏或任何其他什么小东西。
+**未来的我：** 我希望成为一名HCI Researcher。我希望设计和开发一些有意思的东西。
 
 # EDUCATION
 
@@ -21,14 +21,15 @@ author = "Hugo Authors"
 
 # RESEARCH
 
-- An AI Virtual Teacher Passionate About Learning Teaching Gestures（202310   -   Present）
-
-一名对教学手势感兴趣的AI虚拟教师                                                                                  
-    
-- A Super Teacher（202406   -   Present）
-    
+- A Super Teacher（202406   -   Present）   
 一个超级教师
 
+- Visiobo: A Multimodal Embodied Agent for Enhancing the Interactive Poster Reading Experience （202411 - 202502）
+小视：一个增强交互式海报阅读的多模态具身代理
+
+- Novobo: An AI Virtual Teacher Passionate About Learning Teaching Gestures（202310 - 202409）
+小新：一个对教学手势感兴趣的新手教师                   
+    
 # SKILL
 
 **Programming Skills:**
