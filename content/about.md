@@ -25,9 +25,9 @@ author = "Hugo Authors"
 
 一名对教学手势感兴趣的AI虚拟教师                                                                                  
     
-- A Mixed Reality Classroom（202406   -   Present）
+- A Super Teacher（202406   -   Present）
     
-一间混合现实教室
+一个超级教师
 
 # SKILL
 
