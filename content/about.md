@@ -6,9 +6,9 @@ aliases = ["about-us","about-hugo","contact"]
 author = "Hugo Authors"
 +++
 
--  **The Present Me:** I am a master’s student at SUSTech School of Design, majoring in Industrial Design Engineering. I am also a member of the [ai{DEAL}Studio](https://www.anpengcheng.cn/). My research field is human-computer interaction, and I am currently exploring the use of artificial intelligence to support education and learning.
+-  **The Present Me:** I am a master’s student at SUSTech School of Design, majoring in Industrial Design Engineering. I am also a member of the [ai{DEAL}Studio](https://www.anpengcheng.cn/). My research field is human-computer interaction, and I am currently exploring the use of AI to support education and learning.
 
-**现在的我：** 目前，我是南方科技大学设计学院工业设计工程专业的硕士生，同样也是是 ai{DEAL}Studio 的一名成员。我的研究重点是人机交互，主要使用计算机技术来设计和开发一些支持教育的应用。我偶尔也会更新我的微信公众号（雨天啤酒），分享我的生活感受。
+**现在的我：** 目前，我是南方科技大学设计学院工业设计工程专业的硕士生，同样也是是 ai{DEAL}Studio 的一名成员。我的研究重点是人机交互，目前正在探索用AI支持教育和学习。
 
 # EDUCATION
 
