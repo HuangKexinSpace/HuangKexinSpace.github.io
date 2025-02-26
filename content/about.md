@@ -10,7 +10,6 @@ author = "Hugo Authors"
 
 -  **Me:** I am a master's student at SUSTech School of Design, majoring in Industrial Design Engineering. I am also a member of the [ai{DEAL}Studio](https://www.anpengcheng.cn/). My research field is human-computer interaction, and I am currently exploring the use of AI to support education and learning.
 
-**我：** 目前，我是南方科技大学设计学院工业设计工程专业的硕士生，同样也是是 ai{DEAL}Studio 的一名成员。我的研究重点是人机交互, 目前正在探索用AI支持教育和学习。
 
 # EDUCATION
 
