@@ -14,4 +14,3 @@ tags:
 	- ✅实验
 	- ✅论文
 	- 🏃投稿
-- BLESS: Hope to see u soon, our lovely baby 🥹. 
