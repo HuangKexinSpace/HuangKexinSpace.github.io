@@ -6,19 +6,19 @@ tags:
   - Web
 ---
 # 依赖项安装
-- Git
-- Go: https://go.dev/doc/install
+1. Git
+2. Go: https://go.dev/doc/install
   - Check if sucessful installed
 
-  ```
-  go version
-  ```
-- Dart Sass: brew install sass/sass/sass
+```
+go version
+```
+3. Dart Sass: brew install sass/sass/sass
   - Check if sucessful installed
   
-  ```
-  hugo env
-  ```
+```
+hugo env
+```
 ---
 
 ## 安装Hugo for mac
@@ -110,7 +110,7 @@ hugo
   ```
   - 创建带caption的图片
   ```
-  ''{{< figure src="../picturefilename/picturename.png" title="figurecaption" width="80%" >}}''
+  "{{< figure src="../picturefilename/picturename.png" title="figurecaption" width="80%" >}}"
   ```
 # Github自动部署后的push命令
 ```
