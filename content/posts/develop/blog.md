@@ -80,11 +80,9 @@ hugo
 ```
 
 ###  在Github托管Hugo
-
 - Create a Github repository（个人仓库，仓库名为账号名），注意⚠️不要添加readme.md
 - git remote add origin url
   - Check: git remote -v
-
 - Follow the step3-10: https://gohugo.io/host-and-deploy/host-on-github-pages/
 
 # 日常编辑
@@ -110,7 +108,7 @@ hugo
   ```
   - 创建带caption的图片
   ```
-  "{{< figure src="../picturefilename/picturename.png" title="figurecaption" width="80%" >}}"
+  \{{< figure src="../picturefilename/picturename.png" title="figurecaption" width="80%" >}}
   ```
 # Github自动部署后的push命令
 ```
