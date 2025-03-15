@@ -107,9 +107,9 @@ hugo
   ![pic](../picturefilename/picturename.png)
   ```
   - 创建带caption的图片
-  ```
-  \{{< figure src="../picturefilename/picturename.png" title="figurecaption" width="80%" >}}
-  ```
+  {{% raw %}}
+  {{< figure src="../picturefilename/picturename.png" title="figurecaption" width="80%" >}}
+  {{% /raw %}}
 # Github自动部署后的push命令
 ```
 git add .
