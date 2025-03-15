@@ -12,7 +12,8 @@ paginate = 5
 favicon = "https://github.com/HuangKexinSpace/HuangKexinSpace.github.io/blob/master/assets/kexin-icon.png?raw=true"
 	mode="auto"
 	useCDN=false
-	subtitle = """Hello, this is Kexin."""
+	subtitle = """Hello, this is Kexin. I learn, research, develop, design and record.
+	"""
 
 [[params.social]]
 name = "GitHub"
