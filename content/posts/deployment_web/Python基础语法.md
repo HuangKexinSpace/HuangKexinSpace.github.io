@@ -1,5 +1,5 @@
 ---
-title: 【1004更新】python基础语法
+title: Develop - python基础语法 - long term
 date: 2024-10-04
 description:
 tags:

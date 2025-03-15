@@ -6,7 +6,7 @@ copyright = "© Athul"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-paginate = 3
+paginate = 5
 
 [params]
 favicon = "https://github.com/HuangKexinSpace/HuangKexinSpace.github.io/blob/master/assets/kexin-icon.png?raw=true"
@@ -37,7 +37,7 @@ weight = 3
 
 [[menu.main]]
 name = "Project"
-url = "/project"
+url = "/projects"
 title = "all projects"
 weight = 2
 

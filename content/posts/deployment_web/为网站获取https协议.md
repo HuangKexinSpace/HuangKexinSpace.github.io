@@ -1,9 +1,9 @@
 ---
-title: 为网站获取https协议
+title: Develop - 为网站获取https协议
 date: 2024-08-26
 description: 
 tags:
-  - other
+  - web
 ---
 
 前言：买域名+解析+ssl证书部署+买服务器都是在腾讯云完成的。

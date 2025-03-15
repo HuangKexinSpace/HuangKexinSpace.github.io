@@ -18,7 +18,7 @@ author = "Hugo Authors"
 
 # RESEARCH
 
-**A Super Teacher(202410 - Present)**
+**A Super Teacher (202410 - Present)**
 
 
 **Visiobo: A Multimodal Embodied Agent for Enhancing the Interactive Poster Reading Experience (202412 - 202501)**
@@ -31,13 +31,12 @@ author = "Hugo Authors"
 
 # SKILL
 
-**Programming Skills:**
+**Programming:**
 
 - **Python:** Basic usage.
-- **C#:** Write simple scripts with the assistance of AI.
+- **C#/Unity3D:** Basic usgae.
 - **Javascript/HTML/CSS:** Write minor features with the assistance of AI.
 
-**Development Tools:**
+**Deign:**
 
 - **Figma:** Basic UI/UX design skills.
-- **Unity:** Basic usage.
