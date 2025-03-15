@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C# on Kexin&#39;s Blog</title>
+    <link>http://localhost:1313/tags/c%23/</link>
+    <description>Recent content in C# on Kexin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Athul</copyright>
+    <lastBuildDate>Fri, 11 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Develop - Csharp &amp; Unity 扫盲</title>
+      <link>http://localhost:1313/posts/deployment_web/csharp--unity-%E6%89%AB%E7%9B%B2/</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/deployment_web/csharp--unity-%E6%89%AB%E7%9B%B2/</guid>
+      <description>Reference: Code monkey C# Beginner Tutorial&#xA;QAs with GPT Q1: 这个c#脚本为啥没有实例化感觉就运行了？挂载到GameObject就是实例化了吗？向我解释C#的语法和逻辑。&#xA;A1: 在 Unity 中，C# 脚本的执行方式和一般的 C# 程序有所不同，这是因为 Unity 的运行环境和生命周期管理机制不一样。让我们详细看看为什么这个脚本在没有显式实例化的情况下依然可以运行，以及 Unity 的一些基础原理和 C# 的语法逻辑。 Unity 中脚本的工作原理&#xA;挂载到 GameObject： • 在 Unity 中，当你将一个脚本挂载到一个 GameObject 上时，Unity 会自动管理这个脚本的生命周期。相当于在场景中存在的 GameObject 成为了这个脚本类的一个实例化对象。 • 只要场景中存在这个 GameObject，Unity 就会根据生命周期事件（如 Start、Update、OnDestroy 等）自动调用相应的方法。 隐式实例化： • 当一个脚本被附加到一个 GameObject 时，Unity 实际上已经在内部为这个脚本类创建了一个实例，只是这个实例化过程是由 Unity 自动完成的，你不需要在代码中显式地调用 new 去创建对象。 • 所以你不需要像传统的 C# 程序那样使用 DoubleTabBackSceneCtrl myCtrl = new DoubleTabBackSceneCtrl();。Unity 在启动场景时会为你处理这些细节。 C# 脚本在 Unity 中的生命周期方法 Unity 使用 C# 脚本中的特殊方法来控制脚本的执行逻辑，这些方法根据特定的生命周期事件被自动调用： Start() 方法： • Start() 是 Unity 中的一个生命周期方法，当脚本实例在场景中启用时调用一次。它通常用于初始化状态或绑定事件监听器。将事件监听器添加到 Start() 中，确保了它是在游戏对象被启用时就已经准备好响应事件了。 • 当脚本被加载到 GameObject 上并且对象启用后，Unity 自动调用这个方法。 Update() 方法： • Update() 是 Unity 中最常用的一个方法，它在每一帧都被调用，用于持续检查和更新游戏状态。 • 任何需要频繁更新的逻辑，如角色的移动、物理计算等，通常都在这个方法中实现。 OnDestroy() 方法： • OnDestroy() 是当对象即将被销毁时调用的方法，用于执行清理操作，如取消事件订阅、释放资源等。 理解事件监听机制 在你的代码中，SimpleTouch.</description>
+    </item>
+  </channel>
+</rss>
