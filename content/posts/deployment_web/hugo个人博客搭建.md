@@ -1,7 +1,7 @@
 ---
-title: Develop - hugo个人博客搭建
+title: Develop - hugo个人博客搭建（for mac）
 date: 2025-03-16
-description: 
+description: 重新记录📝了一下hugo的部署过程
 tags:
   - web
 ---
