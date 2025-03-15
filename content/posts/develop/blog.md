@@ -6,40 +6,33 @@ tags:
   - Web
 ---
 # 依赖项安装
-
 - Git
-
 - Go: https://go.dev/doc/install
-
   - Check if sucessful installed
 
-    ```
-    go version
-    ```
-
+  ```
+  go version
+  ```
 - Dart Sass: brew install sass/sass/sass
-
   - Check if sucessful installed
-
-    ```
-    hugo env
-    ```
-
+  
+  ```
+  hugo env
+  ```
 ---
 
 ## 安装Hugo for mac
-
 - 安装命令
-
-  ```
-  brew install hugo
-  ```
+  
+```
+brew install hugo
+```
 
 - check命令
 
-  ```
-  hugo version
-  ```
+```
+hugo version
+```
 
 ## 新建网站
 
@@ -58,33 +51,33 @@ hugo server
 
 - 在终端的自定义存放hugo的文件夹下运行
 
-  ```
-  hugo new site your_folder_name
-  cd your_folder_name
-  git inti
-  git submodule add your_choosed_theme_github_url
-  echo "theme" = 'theme_name'">>hugo.toml
-  ```
+```
+hugo new site your_folder_name
+cd your_folder_name
+git inti
+git submodule add your_choosed_theme_github_url
+echo "theme" = 'theme_name'">>hugo.toml
+```
 
 - 启动hugo查看网站
 
-  ```
-  hugo server
-  # 启动hugo查看保存的草稿但未发布指令
-  hugo server -D
-  ```
+```
+hugo server
+# 启动hugo查看保存的草稿但未发布指令
+hugo server -D
+```
 
 - 添加内容
 
-  ```
-  hugo new content content/posts/post_title.md
-  ```
+```
+hugo new content content/posts/post_title.md
+```
 
 - 发布网站
 
-  ```
-  hugo
-  ```
+```
+hugo
+```
 
 ###  在Github托管Hugo
 
@@ -102,23 +95,23 @@ hugo server
   - fileconfig:
   ```
   ---
-    title: Develop - Cpp - 复合数据类型、const限定符
-    date: 2024-03-16T12:00:00
+    title: your_post_title
+    date: 2024-03-15T12:00:00
     description:
     tags:
-    - Cpp
+    - tagA
   --- 
   ```
 - 为your_post插入图片
   - 在posts目录下新建一个放置图片的文件夹
   - 在your_post中输入如下markdown指令
-    ```
-    ![pic](../picturefilename/picturename.png)
-    ```
+  ```
+  ![pic](../picturefilename/picturename.png)
+  ```
   - 创建带caption的图片
-    ```
-    {{< figure src="../picturefilename/picturename.png" title="figurecaption" width="80%" >}}
-    ```
+  ```
+  ''{{< figure src="../picturefilename/picturename.png" title="figurecaption" width="80%" >}}''
+  ```
 # Github自动部署后的push命令
 ```
 git add .
