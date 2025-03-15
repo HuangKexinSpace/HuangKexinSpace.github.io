@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Develop - Cpp - 复合数据类型、const限定符 - Kexin&#39;s Blog</title><link rel="icon" type="image/png" href=https://github.com/HuangKexinSpace/HuangKexinSpace.github.io/blob/master/assets/kexin-icon.png?raw&#61;true /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Cpp 2.3 复合数据类型 引用 引用就是起别名，引用的量必须先初始化。 一旦引用，引用值就和初始值绑定在一起，对其所有的操作都是在与之绑定的对象上（不能和字面值或者表达式的结果绑定）完成的。 引用不是对象，没有引用的引用。 引用的类型必须与它所引用的对象的类型严格匹配。（除了两个特殊情况） 引用代码example int ival = 6; int &amp;renameival = ival; renameival = 999; std::cout&lt;&lt;ival&lt;&lt;std::endl; //输出会是999，所有的操作都是对ival完成的 指针 指针是一个对象，无需在定义时赋初值。因为引用不是对象，没有实际地址，所以不能定义指向引用的指针。 除特殊情况外，指针的类型需要和其指向的对象严格匹配。 指针的状态： - 指向一个对象 - 指向紧邻对象所占空间的下一个位置（p&#43;&#43;） - 空指针 - 无效指针，也就是除了上述情况的其他值 指针相等的三种可能：都为空/都指向同一个对象/都指向同一个对象的下一地址 void* 指针 void* 是一种特殊的指针类型，可用于存放任意对象的地址，不同的是我们对该地址中到底是个什么类型的对象并不了解。 void* 只能做：与别的指针比较、作为函数的输入或输出、或者赋值给另一个void* 指针。不能直接操作void 指针所指的对象，因为不知道它是啥类型的。* 要用的话必须进行显式的类型转换，转换为具体的类型指针后才能操作数据。 指针代码example // 定义空指针 int *p = nullptr; int i = 42; int *p= &amp;i; std::cout&lt;&lt; *p &lt;&lt; &#34; &#34; &lt;&lt; i &lt;&lt; &#34; &#34; &lt;&lt; p &lt;&lt;std::endl; // void* 指针用法示例1：与别的指针比较 #include&lt;iostream&gt; int main(){ // std::cout&lt;&lt;&#34;111&#34;; // int v1; // std::cin&gt;&gt;v1; // std::cout&lt;&lt;v1&lt;&lt;std::endl; int i = 42; int j = 9; int *p= &amp;i; void *q = &amp;j; if (p == q){ std::cout&lt;&lt; &#34;一样&#34; &lt;&lt;std::endl; } else{ std::cout&lt;&lt; &#34;不一样&#34; &lt;&lt;std::endl; } return 0; } // void* 指针用法示例2：作为函数的输入或输出 #include &lt;iostream&gt; void printValue(void* data, char type) { // 根据类型来决定如何处理 void*，必须先进行强制类型转换 switch (type) { case &#39;i&#39;: // int 类型 std::cout &lt;&lt; &#34;Integer: &#34; &lt;&lt; *static_cast&lt;int*&gt;(data) &lt;&lt; std::endl; break; case &#39;f&#39;: // float 类型 std::cout &lt;&lt; &#34;Float: &#34; &lt;&lt; *static_cast&lt;float*&gt;(data) &lt;&lt; std::endl; break; case &#39;c&#39;: // char 类型 std::cout &lt;&lt; &#34;Char: &#34; &lt;&lt; *static_cast&lt;char*&gt;(data) &lt;&lt; std::endl; break; default: std::cout &lt;&lt; &#34;Unknown type." />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="http://localhost:1313/posts/deployment_web/cpp1003---%E5%A4%8D%E5%90%88%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8Bconst%E9%99%90%E5%AE%9A%E7%AC%A6/">
+  <meta property="og:site_name" content="Kexin&#39;s Blog">
+  <meta property="og:title" content="Develop - Cpp - 复合数据类型、const限定符">
+  <meta property="og:description" content="Cpp 2.3 复合数据类型 引用 引用就是起别名，引用的量必须先初始化。 一旦引用，引用值就和初始值绑定在一起，对其所有的操作都是在与之绑定的对象上（不能和字面值或者表达式的结果绑定）完成的。 引用不是对象，没有引用的引用。 引用的类型必须与它所引用的对象的类型严格匹配。（除了两个特殊情况） 引用代码example int ival = 6; int &amp;renameival = ival; renameival = 999; std::cout&lt;&lt;ival&lt;&lt;std::endl; //输出会是999，所有的操作都是对ival完成的 指针 指针是一个对象，无需在定义时赋初值。因为引用不是对象，没有实际地址，所以不能定义指向引用的指针。 除特殊情况外，指针的类型需要和其指向的对象严格匹配。 指针的状态： - 指向一个对象 - 指向紧邻对象所占空间的下一个位置（p&#43;&#43;） - 空指针 - 无效指针，也就是除了上述情况的其他值 指针相等的三种可能：都为空/都指向同一个对象/都指向同一个对象的下一地址 void* 指针 void* 是一种特殊的指针类型，可用于存放任意对象的地址，不同的是我们对该地址中到底是个什么类型的对象并不了解。 void* 只能做：与别的指针比较、作为函数的输入或输出、或者赋值给另一个void* 指针。不能直接操作void 指针所指的对象，因为不知道它是啥类型的。* 要用的话必须进行显式的类型转换，转换为具体的类型指针后才能操作数据。 指针代码example // 定义空指针 int *p = nullptr; int i = 42; int *p= &amp;i; std::cout&lt;&lt; *p &lt;&lt; &#34; &#34; &lt;&lt; i &lt;&lt; &#34; &#34; &lt;&lt; p &lt;&lt;std::endl; // void* 指针用法示例1：与别的指针比较 #include&lt;iostream&gt; int main(){ // std::cout&lt;&lt;&#34;111&#34;; // int v1; // std::cin&gt;&gt;v1; // std::cout&lt;&lt;v1&lt;&lt;std::endl; int i = 42; int j = 9; int *p= &amp;i; void *q = &amp;j; if (p == q){ std::cout&lt;&lt; &#34;一样&#34; &lt;&lt;std::endl; } else{ std::cout&lt;&lt; &#34;不一样&#34; &lt;&lt;std::endl; } return 0; } // void* 指针用法示例2：作为函数的输入或输出 #include &lt;iostream&gt; void printValue(void* data, char type) { // 根据类型来决定如何处理 void*，必须先进行强制类型转换 switch (type) { case &#39;i&#39;: // int 类型 std::cout &lt;&lt; &#34;Integer: &#34; &lt;&lt; *static_cast&lt;int*&gt;(data) &lt;&lt; std::endl; break; case &#39;f&#39;: // float 类型 std::cout &lt;&lt; &#34;Float: &#34; &lt;&lt; *static_cast&lt;float*&gt;(data) &lt;&lt; std::endl; break; case &#39;c&#39;: // char 类型 std::cout &lt;&lt; &#34;Char: &#34; &lt;&lt; *static_cast&lt;char*&gt;(data) &lt;&lt; std::endl; break; default: std::cout &lt;&lt; &#34;Unknown type.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-10-03T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-10-03T00:00:00+00:00">
+    <meta property="article:tag" content="Cpp">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Develop - Cpp - 复合数据类型、const限定符">
+  <meta name="twitter:description" content="Cpp 2.3 复合数据类型 引用 引用就是起别名，引用的量必须先初始化。 一旦引用，引用值就和初始值绑定在一起，对其所有的操作都是在与之绑定的对象上（不能和字面值或者表达式的结果绑定）完成的。 引用不是对象，没有引用的引用。 引用的类型必须与它所引用的对象的类型严格匹配。（除了两个特殊情况） 引用代码example int ival = 6; int &amp;renameival = ival; renameival = 999; std::cout&lt;&lt;ival&lt;&lt;std::endl; //输出会是999，所有的操作都是对ival完成的 指针 指针是一个对象，无需在定义时赋初值。因为引用不是对象，没有实际地址，所以不能定义指向引用的指针。 除特殊情况外，指针的类型需要和其指向的对象严格匹配。 指针的状态： - 指向一个对象 - 指向紧邻对象所占空间的下一个位置（p&#43;&#43;） - 空指针 - 无效指针，也就是除了上述情况的其他值 指针相等的三种可能：都为空/都指向同一个对象/都指向同一个对象的下一地址 void* 指针 void* 是一种特殊的指针类型，可用于存放任意对象的地址，不同的是我们对该地址中到底是个什么类型的对象并不了解。 void* 只能做：与别的指针比较、作为函数的输入或输出、或者赋值给另一个void* 指针。不能直接操作void 指针所指的对象，因为不知道它是啥类型的。* 要用的话必须进行显式的类型转换，转换为具体的类型指针后才能操作数据。 指针代码example // 定义空指针 int *p = nullptr; int i = 42; int *p= &amp;i; std::cout&lt;&lt; *p &lt;&lt; &#34; &#34; &lt;&lt; i &lt;&lt; &#34; &#34; &lt;&lt; p &lt;&lt;std::endl; // void* 指针用法示例1：与别的指针比较 #include&lt;iostream&gt; int main(){ // std::cout&lt;&lt;&#34;111&#34;; // int v1; // std::cin&gt;&gt;v1; // std::cout&lt;&lt;v1&lt;&lt;std::endl; int i = 42; int j = 9; int *p= &amp;i; void *q = &amp;j; if (p == q){ std::cout&lt;&lt; &#34;一样&#34; &lt;&lt;std::endl; } else{ std::cout&lt;&lt; &#34;不一样&#34; &lt;&lt;std::endl; } return 0; } // void* 指针用法示例2：作为函数的输入或输出 #include &lt;iostream&gt; void printValue(void* data, char type) { // 根据类型来决定如何处理 void*，必须先进行强制类型转换 switch (type) { case &#39;i&#39;: // int 类型 std::cout &lt;&lt; &#34;Integer: &#34; &lt;&lt; *static_cast&lt;int*&gt;(data) &lt;&lt; std::endl; break; case &#39;f&#39;: // float 类型 std::cout &lt;&lt; &#34;Float: &#34; &lt;&lt; *static_cast&lt;float*&gt;(data) &lt;&lt; std::endl; break; case &#39;c&#39;: // char 类型 std::cout &lt;&lt; &#34;Char: &#34; &lt;&lt; *static_cast&lt;char*&gt;(data) &lt;&lt; std::endl; break; default: std::cout &lt;&lt; &#34;Unknown type.">
+<script src="http://localhost:1313/js/feather.min.js"></script>
+	
+	
+        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.5cebd7d4fb2b97856af8d32a6def16164fcf7d844e98e236fcb3559655020373.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.d22e2a2879d933a4b781535fc4c4c716e9f9d35ea4986dd0cbabda82effc4bdd.css" media="(prefers-color-scheme: dark)"  />
+	
+
+	
+	
+
+	
+	
+
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="http://localhost:1313/">Kexin&#39;s Blog</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/projects">Project</a>
+		
+		<a href="/posts">Posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Develop - Cpp - 复合数据类型、const限定符</h1>
+			<div class="meta">Posted on Oct 3, 2024</div>
+		</div>
+		
+
+		
+
+		<section class="body">
+			<h1 id="cpp">Cpp</h1>
+<h2 id="23--复合数据类型">2.3  复合数据类型</h2>
+<ul>
+<li>引用
+<ul>
+<li>引用就是<strong>起别名</strong>，引用的量必须先初始化。</li>
+<li>一旦引用，引用值就和初始值绑定在一起，对其所有的操作都是在与之绑定的对象上（<strong>不能和字面值或者表达式的结果绑定</strong>）完成的。</li>
+<li>引用不是对象，<strong>没有引用的引用</strong>。</li>
+<li><strong>引用的类型必须与它所引用的对象的类型严格匹配。（除了两个特殊情况）</strong></li>
+</ul>
+</li>
+<li>引用代码example</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> ival <span style="color:#f92672">=</span> <span style="color:#ae81ff">6</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#f92672">&amp;</span>renameival <span style="color:#f92672">=</span> ival;
+</span></span><span style="display:flex;"><span>renameival <span style="color:#f92672">=</span> <span style="color:#ae81ff">999</span>;
+</span></span><span style="display:flex;"><span>std<span style="color:#f92672">::</span>cout<span style="color:#f92672">&lt;&lt;</span>ival<span style="color:#f92672">&lt;&lt;</span>std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//输出会是999，所有的操作都是对ival完成的
+</span></span></span></code></pre></div><ul>
+<li>指针
+<ul>
+<li>指针是一个对象，无需在定义时赋初值。因为引用不是对象，没有实际地址，所以不能定义指向引用的指针。</li>
+<li>除特殊情况外，指针的类型需要和其指向的对象严格匹配。</li>
+<li>指针的状态：
+- 指向一个对象
+- 指向紧邻对象所占空间的下一个位置（p++）
+- 空指针
+- 无效指针，也就是除了上述情况的其他值</li>
+<li>指针相等的三种可能：都为空/都指向同一个对象/都指向同一个对象的下一地址</li>
+</ul>
+</li>
+<li>void* 指针
+<ul>
+<li>void*  是一种特殊的指针类型，可用于存放任意对象的地址，不同的是我们对该地址中到底是个什么类型的对象并不了解。</li>
+<li>void* 只能做：与别的指针比较、作为函数的输入或输出、或者赋值给另一个void* 指针。<em><em>不能直接操作void</em> 指针所指的对象，因为不知道它是啥类型的。</em>* 要用的话必须进行显式的类型转换，转换为具体的类型指针后才能操作数据。</li>
+</ul>
+</li>
+<li>指针代码example</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">// 定义空指针
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>p <span style="color:#f92672">=</span> <span style="color:#66d9ef">nullptr</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">42</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>p<span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span>i;
+</span></span><span style="display:flex;"><span>std<span style="color:#f92672">::</span>cout<span style="color:#f92672">&lt;&lt;</span> <span style="color:#f92672">*</span>p <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">&lt;&lt;</span> i <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">&lt;&lt;</span> p <span style="color:#f92672">&lt;&lt;</span>std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// void* 指针用法示例1：与别的指针比较
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e">#include&lt;iostream&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(){
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// std::cout&lt;&lt;&#34;111&#34;;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// int v1;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// std::cin&gt;&gt;v1;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// std::cout&lt;&lt;v1&lt;&lt;std::endl;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">42</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">9</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>p<span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span>i;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#f92672">*</span>q <span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span>j;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (p <span style="color:#f92672">==</span> q){
+</span></span><span style="display:flex;"><span>std<span style="color:#f92672">::</span>cout<span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;一样&#34;</span> <span style="color:#f92672">&lt;&lt;</span>std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span>{
+</span></span><span style="display:flex;"><span>std<span style="color:#f92672">::</span>cout<span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;不一样&#34;</span> <span style="color:#f92672">&lt;&lt;</span>std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// void* 指针用法示例2：作为函数的输入或输出
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">printValue</span>(<span style="color:#66d9ef">void</span><span style="color:#f92672">*</span> data, <span style="color:#66d9ef">char</span> type) {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 根据类型来决定如何处理 void*，必须先进行强制类型转换
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">switch</span> (type) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#39;i&#39;</span><span style="color:#f92672">:</span>  <span style="color:#75715e">// int 类型
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Integer: &#34;</span> <span style="color:#f92672">&lt;&lt;</span> <span style="color:#f92672">*</span><span style="color:#66d9ef">static_cast</span><span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">*&gt;</span>(data) <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#39;f&#39;</span><span style="color:#f92672">:</span>  <span style="color:#75715e">// float 类型
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Float: &#34;</span> <span style="color:#f92672">&lt;&lt;</span> <span style="color:#f92672">*</span><span style="color:#66d9ef">static_cast</span><span style="color:#f92672">&lt;</span><span style="color:#66d9ef">float</span><span style="color:#f92672">*&gt;</span>(data) <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#39;c&#39;</span><span style="color:#f92672">:</span>  <span style="color:#75715e">// char 类型
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Char: &#34;</span> <span style="color:#f92672">&lt;&lt;</span> <span style="color:#f92672">*</span><span style="color:#66d9ef">static_cast</span><span style="color:#f92672">&lt;</span><span style="color:#66d9ef">char</span><span style="color:#f92672">*&gt;</span>(data) <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">default</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>            std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Unknown type.&#34;</span> <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">float</span> y <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.14f</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">char</span> z <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;A&#39;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 使用 void* 作为函数输入
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    printValue(<span style="color:#f92672">&amp;</span>x, <span style="color:#e6db74">&#39;i&#39;</span>);
+</span></span><span style="display:flex;"><span>    printValue(<span style="color:#f92672">&amp;</span>y, <span style="color:#e6db74">&#39;f&#39;</span>);
+</span></span><span style="display:flex;"><span>    printValue(<span style="color:#f92672">&amp;</span>z, <span style="color:#e6db74">&#39;c&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//赋值给另一个void* 指针
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span><span style="color:#f92672">*</span> ptr1 <span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span>x;  <span style="color:#75715e">// 将 int* 赋值给 void*
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">void</span><span style="color:#f92672">*</span> ptr2 <span style="color:#f92672">=</span> ptr1;  <span style="color:#75715e">// 将 void* 赋值给另一个 void*
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 由于我们不能直接操作 void*，需要将它转换回来
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Value of x through ptr2: &#34;</span> <span style="color:#f92672">&lt;&lt;</span> <span style="color:#f92672">*</span><span style="color:#66d9ef">static_cast</span><span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">*&gt;</span>(ptr2) <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>指向指针的引用
+<ul>
+<li>问：为什么第二句 不是&amp;* p 这样，为啥 * 要在前</li>
+<li>答：如果你写 &amp;* p，那么它的意思是：先解引用 p，得到 p 所指向的对象，然后对这个对象取地址。也就是说，&amp;* p 结果是 p 自己，因为解引用后再取地址，最终还是原来的指针。这在语义上是有意义的，但在这种情况下并不需要。</li>
+<li><strong>要理解r的类型，从右往左阅读r的定义。离变量名最近的符号对便利的类型有最直接的影响。声明符的其余部份用以确定r的引用的类型是什么。</strong></li>
+</ul>
+</li>
+<li>指向指针的引用 代码example</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>p; 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#f92672">*&amp;</span>r <span style="color:#f92672">=</span> p;<span style="color:#75715e">//r是一个对指针p对引用
+</span></span></span></code></pre></div><h2 id="24-const-限定符">2.4 Const 限定符</h2>
+<ul>
+<li>因为<strong>const对象一旦创建后其值就不能再改变</strong>，所以const对象必须初始化：
+<ul>
+<li>const int k; //大错特错，因为没有初始化</li>
+<li>const int j = get_size(); //对的，运行时初始化</li>
+</ul>
+</li>
+<li>默认状态下，const对象仅在当前文件内有效；若要在多个文件中共享const对象，必须在变量的定义之前添加extern关键词。</li>
+<li>初始化和对const的引用
+<ul>
+<li>引用的类型必须与其所引用的对象的类型一致，但例外1：在初始化<strong>常量引用</strong>时允许用任意表达式作为初始值。</li>
+<li>例外2: 对const的引用可能引用一个并非const的对象</li>
+</ul>
+</li>
+<li>常量引用（const T&amp;）是某个对象的引用，但它<strong>不允许通过该引用修改对象的值</strong>。</li>
+<li><strong>常量引用可以绑定非常量对象</strong>，即使该对象不是常量，也可以将其值赋值给该引用，这属于值拷贝，不影响该对象本身。</li>
+<li>指针和const
+<ul>
+<li>要想存放常量对象的地址，只能使用指向常量的指针。</li>
+<li>指针类型必须与其所指对象的类型一致，但例外1：允许令一个指向常量的指针指向一个非常量对象。</li>
+<li>常量指针必须初始化，一旦初始化完成，它的值就不能再改变了。</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include&lt;iostream&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(){
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// std::cout&lt;&lt;&#34;111&#34;;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// int v1;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// std::cin&gt;&gt;v1;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// std::cout&lt;&lt;v1&lt;&lt;std::endl;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">double</span> dval <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.14</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#66d9ef">int</span> <span style="color:#f92672">&amp;</span>i <span style="color:#f92672">=</span> dval;
+</span></span><span style="display:flex;"><span>std<span style="color:#f92672">::</span>cout<span style="color:#f92672">&lt;&lt;</span> dval <span style="color:#f92672">&lt;&lt;</span>std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span>std<span style="color:#f92672">::</span>cout<span style="color:#f92672">&lt;&lt;</span> i <span style="color:#f92672">&lt;&lt;</span>std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+		</section>
+
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="/tags/cpp">Cpp</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/HuangKexinSpace" rel="me" title="GitHub"><i data-feather="github"></i></a>
+    <a class="border"></a><a class="soc" href="mailto:functionhkx@gmail.com" rel="me" title="Email"><i data-feather="mail"></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2025  © Athul |  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+<script>
+  feather.replace()
+</script></div>
+    </body>
+</html>

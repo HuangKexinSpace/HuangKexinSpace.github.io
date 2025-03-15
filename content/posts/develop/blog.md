@@ -108,14 +108,23 @@ hugo
   ```
   - 创建带caption的图片
 {{% raw %}}
+```markdown
 {{< figure src="../picturefilename/picturename.png" title="figurecaption" width="80%" >}}
+```
 {{% /raw %}}
+
+
 # Github自动部署后的push命令
 ```
 git add .
 git commit -m "update_info"
 git push origin
 ```
+- 在push前，可以运行来查看网站是否正确渲染，没问题后，推送上去。
+```
+hugo server -D
+```
+
 
 # 注意
 hugo部署的时间是世界时间，早于世界时间的post不会提起发布，中国比世界时间快八小时，也就是说，你的时间点需要减去八小时，post出去的文章才可以立刻看到。
