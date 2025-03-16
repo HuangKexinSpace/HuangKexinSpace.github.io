@@ -62,9 +62,21 @@
               "icon": "lucide-file",
               "title": "Notes for Writing Prompt"
             }
+          },
+          {
+            "id": "ee83e4b32245c2cb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -83,7 +95,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -136,7 +149,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "deployment_web/Notes for Writing Prompt.md"
+                "file": "deployment_web/Notes for Writing Prompt.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Notes for Writing Prompt 的大纲"
@@ -220,7 +236,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "dc3e20d7bee10769",
+  "active": "ee83e4b32245c2cb",
   "lastOpenFiles": [
     "deployment_web/Unity 通信.md",
     "deployment_web/Notes for Writing Prompt.md",
