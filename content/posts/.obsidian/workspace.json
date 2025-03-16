@@ -67,12 +67,14 @@
             "id": "ee83e4b32245c2cb",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.7"
+                "file": "deployment_web/Python基础语法.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
+              "icon": "lucide-file",
+              "title": "Python基础语法"
             }
           }
         ],
@@ -149,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "deployment_web/Notes for Writing Prompt.md",
+                "file": "deployment_web/Python基础语法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Notes for Writing Prompt 的大纲"
+              "title": "Python基础语法 的大纲"
             }
           },
           {
@@ -238,13 +240,13 @@
   },
   "active": "ee83e4b32245c2cb",
   "lastOpenFiles": [
+    "deployment_web/Cpp1003 - 复合数据类型、const限定符.md",
     "deployment_web/Unity 通信.md",
     "deployment_web/Notes for Writing Prompt.md",
     "deployment_web/Python基础语法.md",
     "deployment_web/RayNeoX2_01_环境配置.md",
     "deployment_web/RayNeoX2_02_Demo初探.md",
     "deployment_web/RayNeoX2_03_脚本功能描述.md",
-    "deployment_web/Cpp1003 - 复合数据类型、const限定符.md",
     "deployment_web/为网站获取https协议.md",
     "deployment_web/Csharp & Unity 扫盲.md",
     "deployment_web/attachments/RayNeoX2_03_脚本功能描述.png",
