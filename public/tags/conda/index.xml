@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conda on Kexin&#39;s Blog</title>
+    <link>https://example.com/tags/conda/</link>
+    <description>Recent content in Conda on Kexin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Athul</copyright>
+    <lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/tags/conda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Develop - Mac配置conda环境</title>
+      <link>https://example.com/posts/deployment_web/mac%E9%85%8D%E7%BD%AEconda%E7%8E%AF%E5%A2%83/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/deployment_web/mac%E9%85%8D%E7%BD%AEconda%E7%8E%AF%E5%A2%83/</guid>
+      <description>conda：类似于pip的包管理器，用于创建和管理虚拟环境，因为不同项目所需的包的版本不同，虚拟环境可以很好地区分和管理这些不同的包，类似于给每个项目划分出一个小房间，每个小房间可以放不同的工具。&#xA;conda 和venv的比较 • venv：Python 自带的轻量级虚拟环境管理工具。它只处理 Python 解释器及其依赖库，不支持管理其他语言或工具。venv 从 Python 3.3 开始内置，适合于单纯的 Python 项目。&#xA;• conda：一个更强大的包管理和环境管理工具，适用于多个编程语言（不仅限于 Python），可以管理 Python 版本、依赖库、其他编程语言（如 R）、以及外部工具（如 MKL、HDF5）。它不仅支持 Python，还支持其他科学计算库和工具，常见于 Anaconda 或 Miniconda 发行版。&#xA;环境配置 reference：YoutubeTutorial&#xA;在官网上freedownload mac版本，一路向前安装到底。 然后在终端用conda指令创建环境 然后在anacoanaconda中选择环境后，launch vscode （需要提前安装vscode）～就进入对应的环境啦。 conda 指令 创建：conda create —name xxx python=… 删除：conda remove -n EnvName - -all 进入：conda activate EnvName 退出：conda deactivate</description>
+    </item>
+  </channel>
+</rss>

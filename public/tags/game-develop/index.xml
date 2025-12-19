@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game Develop on Kexin&#39;s Blog</title>
+    <link>https://example.com/tags/game-develop/</link>
+    <description>Recent content in Game Develop on Kexin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Athul</copyright>
+    <lastBuildDate>Fri, 19 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/tags/game-develop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>游戏开发日记（1） - 251219</title>
+      <link>https://example.com/posts/dairy/251219/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/dairy/251219/</guid>
+      <description>简介 开发目的 通过这种新的创作方式进行思考、表达、沟通和疗愈。 学习游戏开发 锻炼项目管理能力 游戏类型 把自己的大致想法告诉GPT，G老师跟我说我这个游戏类型算是【章节式情感叙事冒险游戏】。&#xA;整体规划 预期体量和用时： 目前大致确定了游戏的章节数，每章会有一个主要的交互游戏，章节之间会穿插叙事、解谜等碎片式交互（？。定位算是非常小型的游戏。预计玩的时间大约2-3小时？目前还不能准确的估计。 开发用时，预计工作日每天三小时，周末无上限。目前尚未完全步入开发正轨所以也难以估计开发用时，希望是可以在过年之前完成。 各方面投入预估 剧情策划：真实事件的现成素材，但为了好玩，会进行剧情的改编和悬疑设置。（时间投入：中、低程度） 交互设计：主要是基于已有经历设计若干个主要的交互体验玩法，以及整个游戏的世界观、生存机制等。（时间投入：中等） 开发：目前能够想到的开发工作应该都可以借助AI完成，唯一觉得可能是难点的部分在于动画系统，确实没有太多接触，但视觉并不是这个游戏的重点，所以视觉方面尽可能保持极简。（时间投入：中等） 美术：这个是目前觉得比较头疼的，肯定大部分是让AI完成，但promptAI生成一整套连贯可用的美术素材，感觉应该比较费劲。（时间投入：中等） 音乐：纯练手之作，不涉及版权，所以音乐可以找自己喜欢的、契合的就好。（时间投入：低） 当前进度 策划： GDDV0.1完成 玩法机制 V0.1进行中 剧情与文本 V0.1进行中 开发 尚未开始 美术 尚未开始 音乐 尚未开始 近期代办 策划 产出玩法机制-V0.1 产出剧情与文本-V0.1 项目管理 确定整体的开发进度规划 美术 生成主要场景及人物的美术素材 </description>
+    </item>
+  </channel>
+</rss>

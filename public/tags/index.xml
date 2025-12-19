@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Kexin&#39;s Blog</title>
+    <link>https://example.com/tags/</link>
+    <description>Recent content in Tags on Kexin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Athul</copyright>
+    <lastBuildDate>Fri, 19 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game Develop</title>
+      <link>https://example.com/tags/game-develop/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/game-develop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AR</title>
+      <link>https://example.com/tags/ar/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/ar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dairy</title>
+      <link>https://example.com/tags/dairy/</link>
+      <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/dairy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>https://example.com/tags/llm/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>https://example.com/tags/research/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>https://example.com/tags/web/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C#</title>
+      <link>https://example.com/tags/c%23/</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/c%23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cpp</title>
+      <link>https://example.com/tags/cpp/</link>
+      <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/cpp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conda</title>
+      <link>https://example.com/tags/conda/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/conda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://example.com/tags/python/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OCR</title>
+      <link>https://example.com/tags/ocr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/ocr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projector</title>
+      <link>https://example.com/tags/projector/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/projector/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

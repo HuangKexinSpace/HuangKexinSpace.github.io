@@ -1,7 +1,7 @@
 ---
 title: Unity - World Space下设置UI中到字体大小
 date: 2025-04-14
-description:World space下UI的字体大小与DPPU和front szie有关，Screen space下与RPPU有关。 
+description: World space下UI的字体大小与DPPU和front szie有关，Screen space下与RPPU有关。 
 tags:
   - AR
 ---

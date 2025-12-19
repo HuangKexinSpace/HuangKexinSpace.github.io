@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Develop - RayNeoX2_02_Demo初探、6dof - Kexin&#39;s Blog</title><link rel="icon" type="image/png" href=https://github.com/HuangKexinSpace/HuangKexinSpace.github.io/blob/master/assets/kexin-icon.png?raw&#61;true /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Refer 官方文档 RayNeoX2_01_环境配置 构建第一个XR应用 Follow： 官方文档 - OpenXR Unity ARDK -最新 - 快速开始 - 构建第一个XR应用 添加XR Plugin 预制体 新建场景，最上方导航点Asstes - Create - Scene，新建的Scene（任何其他的东西）都会出现在Project的Assets文件夹中，然后我们把新建的这个New Scene拖到Hiearchy栏下。 在Unity中，Project下的Assets相当于仓库中的原料，把Assete中的东西从Project拖到Hierarchy上，就像是把原料摆到操作台上，而Scene/Game的视窗就是看看当前操作台上的东西长什么样子。 把New Scene中的Main Camera，Directional	light删除。 (然后就是一步一步跟着文档操作，我这里记录一些文档可能没有细节的步骤) 添加按钮和输入框 2. 配置Canvas 需要删除canvas下原有Graphic Raycaster,并添加我们的XRGraphicRaycaster 打包及投屏测试可以参考 RayNeoX2_01_环境配置 6dof功能 目前我的理解： Unity中必须要有相机，如果只是3D游戏，那么就用的是Unity内置的Camera。但XR设备总是有自己的摄像头的，因此它们通常需要自己的相机接口，所以每个XR设备的相机都不一样，我们需要看它们的官方文档，如何去调用相机。 而相机的视角和模式又与设计的需求息息相关，我们希望相机跟随人的头运动，还是固定视角？希望一个物体一直离我们保持一定的距离，还是我可以靠近它，走近它，这就需要看文档，去如何设置相机。 目前从“构建第一个XR应用”中发现，雷鸟的camera就是在XR Plugin中。 目前就是看Samples中的代码，看它6dof的实现代码。 " />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="https://example.com/posts/deployment_web/rayneox2_02_demo%E5%88%9D%E6%8E%A2/">
+  <meta property="og:site_name" content="Kexin&#39;s Blog">
+  <meta property="og:title" content="Develop - RayNeoX2_02_Demo初探、6dof">
+  <meta property="og:description" content="Refer 官方文档 RayNeoX2_01_环境配置 构建第一个XR应用 Follow： 官方文档 - OpenXR Unity ARDK -最新 - 快速开始 - 构建第一个XR应用 添加XR Plugin 预制体 新建场景，最上方导航点Asstes - Create - Scene，新建的Scene（任何其他的东西）都会出现在Project的Assets文件夹中，然后我们把新建的这个New Scene拖到Hiearchy栏下。 在Unity中，Project下的Assets相当于仓库中的原料，把Assete中的东西从Project拖到Hierarchy上，就像是把原料摆到操作台上，而Scene/Game的视窗就是看看当前操作台上的东西长什么样子。 把New Scene中的Main Camera，Directional	light删除。 (然后就是一步一步跟着文档操作，我这里记录一些文档可能没有细节的步骤) 添加按钮和输入框 2. 配置Canvas 需要删除canvas下原有Graphic Raycaster,并添加我们的XRGraphicRaycaster 打包及投屏测试可以参考 RayNeoX2_01_环境配置 6dof功能 目前我的理解： Unity中必须要有相机，如果只是3D游戏，那么就用的是Unity内置的Camera。但XR设备总是有自己的摄像头的，因此它们通常需要自己的相机接口，所以每个XR设备的相机都不一样，我们需要看它们的官方文档，如何去调用相机。 而相机的视角和模式又与设计的需求息息相关，我们希望相机跟随人的头运动，还是固定视角？希望一个物体一直离我们保持一定的距离，还是我可以靠近它，走近它，这就需要看文档，去如何设置相机。 目前从“构建第一个XR应用”中发现，雷鸟的camera就是在XR Plugin中。 目前就是看Samples中的代码，看它6dof的实现代码。 ">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-10-09T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-10-09T00:00:00+00:00">
+    <meta property="article:tag" content="AR">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Develop - RayNeoX2_02_Demo初探、6dof">
+  <meta name="twitter:description" content="Refer 官方文档 RayNeoX2_01_环境配置 构建第一个XR应用 Follow： 官方文档 - OpenXR Unity ARDK -最新 - 快速开始 - 构建第一个XR应用 添加XR Plugin 预制体 新建场景，最上方导航点Asstes - Create - Scene，新建的Scene（任何其他的东西）都会出现在Project的Assets文件夹中，然后我们把新建的这个New Scene拖到Hiearchy栏下。 在Unity中，Project下的Assets相当于仓库中的原料，把Assete中的东西从Project拖到Hierarchy上，就像是把原料摆到操作台上，而Scene/Game的视窗就是看看当前操作台上的东西长什么样子。 把New Scene中的Main Camera，Directional	light删除。 (然后就是一步一步跟着文档操作，我这里记录一些文档可能没有细节的步骤) 添加按钮和输入框 2. 配置Canvas 需要删除canvas下原有Graphic Raycaster,并添加我们的XRGraphicRaycaster 打包及投屏测试可以参考 RayNeoX2_01_环境配置 6dof功能 目前我的理解： Unity中必须要有相机，如果只是3D游戏，那么就用的是Unity内置的Camera。但XR设备总是有自己的摄像头的，因此它们通常需要自己的相机接口，所以每个XR设备的相机都不一样，我们需要看它们的官方文档，如何去调用相机。 而相机的视角和模式又与设计的需求息息相关，我们希望相机跟随人的头运动，还是固定视角？希望一个物体一直离我们保持一定的距离，还是我可以靠近它，走近它，这就需要看文档，去如何设置相机。 目前从“构建第一个XR应用”中发现，雷鸟的camera就是在XR Plugin中。 目前就是看Samples中的代码，看它6dof的实现代码。 ">
+<script src="https://example.com/js/feather.min.js"></script>
+	
+	
+        <link href="https://example.com/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://example.com/css/main.5cebd7d4fb2b97856af8d32a6def16164fcf7d844e98e236fcb3559655020373.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://example.com/css/dark.d22e2a2879d933a4b781535fc4c4c716e9f9d35ea4986dd0cbabda82effc4bdd.css" media="(prefers-color-scheme: dark)"  />
+	
+
+	
+	
+
+	
+	
+
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://example.com/">Kexin&#39;s Blog</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/projects">Project</a>
+		
+		<a href="/posts">Posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Develop - RayNeoX2_02_Demo初探、6dof</h1>
+			<div class="meta">Posted on Oct 9, 2024</div>
+		</div>
+		
+
+		
+
+		<section class="body">
+			<h3 id="refer">Refer</h3>
+<ul>
+<li><a href="https://open.rayneo.cn/#/docs/x2?name=">官方文档</a></li>
+<li><a href="https://huangkexinspace.github.io/posts/deployment_web/rayneox2_01_%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">RayNeoX2_01_环境配置</a></li>
+</ul>
+<h1 id="构建第一个xr应用">构建第一个XR应用</h1>
+<ul>
+<li>Follow： <a href="https://open.rayneo.cn/#/docs/x2?name=">官方文档</a> - OpenXR Unity ARDK -最新 - 快速开始 - 构建第一个XR应用</li>
+</ul>
+<h2 id="添加xr-plugin-预制体">添加XR Plugin 预制体</h2>
+<ul>
+<li>新建场景，最上方导航点Asstes - Create - Scene，新建的Scene（任何其他的东西）都会出现在Project的Assets文件夹中，然后我们把新建的这个New Scene拖到Hiearchy栏下。</li>
+<li>在Unity中，Project下的Assets相当于仓库中的原料，把Assete中的东西从Project拖到Hierarchy上，就像是把原料摆到操作台上，而Scene/Game的视窗就是看看当前操作台上的东西长什么样子。
+<img src="../attachments/RayNeoX2_02_Demo%E5%88%9D%E6%8E%A2.png" alt="pic">
+<img src="../attachments/RayNeoX2_02_Demo%E5%88%9D%E6%8E%A2-1.png" alt="pic"></li>
+<li>把New Scene中的Main Camera，Directional	light删除。
+<img src="../attachments/RayNeoX2_02_Demo%E5%88%9D%E6%8E%A2-2.png" alt="pic">
+(然后就是一步一步跟着文档操作，我这里记录一些文档可能没有细节的步骤)</li>
+</ul>
+<h2 id="添加按钮和输入框">添加按钮和输入框</h2>
+<h3 id="2-配置canvas">2. 配置Canvas</h3>
+<p>需要删除canvas下原有Graphic Raycaster,并添加我们的XRGraphicRaycaster
+<img src="../attachments/RayNeoX2_02_Demo%E5%88%9D%E6%8E%A2-3.png" alt="pic">
+<img src="../attachments/RayNeoX2_02_Demo%E5%88%9D%E6%8E%A2-4.png" alt="pic"></p>
+<ul>
+<li>打包及投屏测试可以参考 <a href="https://huangkexinspace.github.io/posts/deployment_web/rayneox2_01_%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">RayNeoX2_01_环境配置</a></li>
+</ul>
+<h2 id="6dof功能">6dof功能</h2>
+<ul>
+<li>目前我的理解：
+<ul>
+<li>Unity中必须要有相机，如果只是3D游戏，那么就用的是Unity内置的Camera。但XR设备总是有自己的摄像头的，因此它们通常需要自己的相机接口，所以每个XR设备的相机都不一样，我们需要看它们的官方文档，如何去调用相机。</li>
+<li>而相机的视角和模式又与设计的需求息息相关，我们希望相机跟随人的头运动，还是固定视角？希望一个物体一直离我们保持一定的距离，还是我可以靠近它，走近它，这就需要看文档，去如何设置相机。</li>
+</ul>
+</li>
+<li>目前从“构建第一个XR应用”中发现，雷鸟的camera就是在<strong>XR Plugin</strong>中。
+<img src="../attachments/RayNeoX2_02_Demo%E5%88%9D%E6%8E%A2-5.png" alt="pic"></li>
+<li>目前就是看Samples中的代码，看它6dof的实现代码。</li>
+</ul>
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="/tags/ar">AR</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/HuangKexinSpace" rel="me" title="GitHub"><i data-feather="github"></i></a>
+    <a class="border"></a><a class="soc" href="mailto:functionhkx@gmail.com" rel="me" title="Email"><i data-feather="mail"></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2025  © Athul |  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+
+  
+
+
+<script>
+  feather.replace()
+</script></div>
+    </body>
+</html>

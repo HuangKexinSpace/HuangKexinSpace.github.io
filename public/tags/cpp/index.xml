@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cpp on Kexin&#39;s Blog</title>
+    <link>https://example.com/tags/cpp/</link>
+    <description>Recent content in Cpp on Kexin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Athul</copyright>
+    <lastBuildDate>Sun, 06 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Develop - Cpp - vector、迭代器</title>
+      <link>https://example.com/posts/deployment_web/cpp1006---vector%E8%BF%AD%E4%BB%A3%E5%99%A8/</link>
+      <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/deployment_web/cpp1006---vector%E8%BF%AD%E4%BB%A3%E5%99%A8/</guid>
+      <description> 范围for循环：处理字符串中的每个字符 for (declaration:expression) statement 下标运算符：s[0] 代表第一个字符 3.3 标准库类型vector From GPT：通俗地说，vector 是 C++ 中的动态数组，它可以自动调整大小，非常适合存储和管理一组数据。&#xA;加元素 push_back 若循环体内部包含有向vector对象添加元素的语句，则不能使用范围for循环。 3.4 迭代器 v.begin() 表示v的第一个元素，若v为空，则它是尾元素的下一位元素。 v.end() 表示v尾元素的下一位元素，即尾后迭代器。 迭代器类型：iterator 能读写元素 const_iterator 只能读不能写。 begin 和 end 运算符：若对象是常量，begin和end返回const_iterator; 若不是常量，返回iterator。 cbegin，cend 返回const_iterator。 -&amp;gt; 解引用+成员访问 </description>
+    </item>
+    <item>
+      <title>Develop - Cpp - 标准库类型string</title>
+      <link>https://example.com/posts/deployment_web/cpp1005---%E6%A0%87%E5%87%86%E5%BA%93%E7%B1%BB%E5%9E%8Bstring/</link>
+      <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/deployment_web/cpp1005---%E6%A0%87%E5%87%86%E5%BA%93%E7%B1%BB%E5%9E%8Bstring/</guid>
+      <description>3.2 标准库类型string 读写string 对象 在进行读取cin操作时，string对象会自动忽略开头的空白（空格、换行 制表），从第一个真正的字符读起，直到遇到下一个空白停止。cin不进空格的。 保留空白符号：用getline。 //输入1，遇到空白停止 string in1; cin&amp;gt;&amp;gt;in1; cout&amp;lt;&amp;lt;in1&amp;lt;&amp;lt;endl; //输入2，遇到空白换行输出 string in2; while(cin&amp;gt;&amp;gt;in2) cout&amp;lt;&amp;lt;in2&amp;lt;&amp;lt;endl; //输入3，原样输出空白符 string in3; while(getline(cin,in3)) cout&amp;lt;&amp;lt;in3&amp;lt;&amp;lt;endl; </description>
+    </item>
+    <item>
+      <title>Develop - Cpp - const限定符号、处理类型</title>
+      <link>https://example.com/posts/deployment_web/cpp1004---const%E9%99%90%E5%AE%9A%E7%AC%A6%E5%8F%B7%E5%A4%84%E7%90%86%E7%B1%BB%E5%9E%8B/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/deployment_web/cpp1004---const%E9%99%90%E5%AE%9A%E7%AC%A6%E5%8F%B7%E5%A4%84%E7%90%86%E7%B1%BB%E5%9E%8B/</guid>
+      <description>Cpp 2.4 const限定符 指针和const int errNumb = 0; int *const cuErr = &amp;amp;errNumb; //cuErr是一个指向int型对象的常量指针 它只指errNumb 不准变 const double pi = 3.14; const double *const pip = &amp;amp;pi;// pip是一个指向常量对象的常量指针 指针本身是一个常量并不意味着不能通过指针修改其所指对象的值，需要看指向的对象是否可变。 顶层const 顶层const表示该对象本身是常量，底层const表示指针和引用所指的对象是常量。 constexpr和常量表达式 const int sz = get_size(); //sz不是常量表达式 尽管sz本身是一个常量，但它的具体值直到运行时才能获取，所以也不是常量表达式。&#xA;声明为constexpr的变量一定是一个常量，而且必须用常量表达式初始化，初始化了就不准变了，也不准重新赋值。 2.5 处理类型 类型别名 //两种起别名的方式 typedef double wages; using SI = Sales_item; 指针、常量和类型别名 不能直接替换来理解，而是要把别名的东西和修饰整体理解。这里有些抽象，遇到具体的再补充。 auto类型说明符 auto定义的变量必须要有初始值 复合类型、常量和auto auto一般回忽略顶层const，保留底层const decltype类型指示符 decltype的作用是选择并返回操作数的数据类型： decltype(f())sum = x; //sum的类型就是函数f的返回类型 2.6 自定义数据结构 </description>
+    </item>
+    <item>
+      <title>Develop - Cpp - 复合数据类型、const限定符</title>
+      <link>https://example.com/posts/deployment_web/cpp1003---%E5%A4%8D%E5%90%88%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8Bconst%E9%99%90%E5%AE%9A%E7%AC%A6/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/deployment_web/cpp1003---%E5%A4%8D%E5%90%88%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8Bconst%E9%99%90%E5%AE%9A%E7%AC%A6/</guid>
+      <description>Cpp 2.3 复合数据类型 引用 引用就是起别名，引用的量必须先初始化。 一旦引用，引用值就和初始值绑定在一起，对其所有的操作都是在与之绑定的对象上（不能和字面值或者表达式的结果绑定）完成的。 引用不是对象，没有引用的引用。 引用的类型必须与它所引用的对象的类型严格匹配。（除了两个特殊情况） 引用代码example int ival = 6; int &amp;amp;renameival = ival; renameival = 999; std::cout&amp;lt;&amp;lt;ival&amp;lt;&amp;lt;std::endl; //输出会是999，所有的操作都是对ival完成的 指针 指针是一个对象，无需在定义时赋初值。因为引用不是对象，没有实际地址，所以不能定义指向引用的指针。 除特殊情况外，指针的类型需要和其指向的对象严格匹配。 指针的状态： - 指向一个对象 - 指向紧邻对象所占空间的下一个位置（p++） - 空指针 - 无效指针，也就是除了上述情况的其他值 指针相等的三种可能：都为空/都指向同一个对象/都指向同一个对象的下一地址 void* 指针 void* 是一种特殊的指针类型，可用于存放任意对象的地址，不同的是我们对该地址中到底是个什么类型的对象并不了解。 void* 只能做：与别的指针比较、作为函数的输入或输出、或者赋值给另一个void* 指针。不能直接操作void 指针所指的对象，因为不知道它是啥类型的。* 要用的话必须进行显式的类型转换，转换为具体的类型指针后才能操作数据。 指针代码example // 定义空指针 int *p = nullptr; int i = 42; int *p= &amp;amp;i; std::cout&amp;lt;&amp;lt; *p &amp;lt;&amp;lt; &amp;#34; &amp;#34; &amp;lt;&amp;lt; i &amp;lt;&amp;lt; &amp;#34; &amp;#34; &amp;lt;&amp;lt; p &amp;lt;&amp;lt;std::endl; // void* 指针用法示例1：与别的指针比较 #include&amp;lt;iostream&amp;gt; int main(){ // std::cout&amp;lt;&amp;lt;&amp;#34;111&amp;#34;; // int v1; // std::cin&amp;gt;&amp;gt;v1; // std::cout&amp;lt;&amp;lt;v1&amp;lt;&amp;lt;std::endl; int i = 42; int j = 9; int *p= &amp;amp;i; void *q = &amp;amp;j; if (p == q){ std::cout&amp;lt;&amp;lt; &amp;#34;一样&amp;#34; &amp;lt;&amp;lt;std::endl; } else{ std::cout&amp;lt;&amp;lt; &amp;#34;不一样&amp;#34; &amp;lt;&amp;lt;std::endl; } return 0; } // void* 指针用法示例2：作为函数的输入或输出 #include &amp;lt;iostream&amp;gt; void printValue(void* data, char type) { // 根据类型来决定如何处理 void*，必须先进行强制类型转换 switch (type) { case &amp;#39;i&amp;#39;: // int 类型 std::cout &amp;lt;&amp;lt; &amp;#34;Integer: &amp;#34; &amp;lt;&amp;lt; *static_cast&amp;lt;int*&amp;gt;(data) &amp;lt;&amp;lt; std::endl; break; case &amp;#39;f&amp;#39;: // float 类型 std::cout &amp;lt;&amp;lt; &amp;#34;Float: &amp;#34; &amp;lt;&amp;lt; *static_cast&amp;lt;float*&amp;gt;(data) &amp;lt;&amp;lt; std::endl; break; case &amp;#39;c&amp;#39;: // char 类型 std::cout &amp;lt;&amp;lt; &amp;#34;Char: &amp;#34; &amp;lt;&amp;lt; *static_cast&amp;lt;char*&amp;gt;(data) &amp;lt;&amp;lt; std::endl; break; default: std::cout &amp;lt;&amp;lt; &amp;#34;Unknown type.</description>
+    </item>
+    <item>
+      <title>Develop - Cpp - 类、变量</title>
+      <link>https://example.com/posts/deployment_web/cpp0916/</link>
+      <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/deployment_web/cpp0916/</guid>
+      <description>1.5 类 在头文件person.h中声明类 #ifndef PERSON_H // 防止头文件重复包含 #define PERSON_H #include &amp;lt;string&amp;gt; class Person { public: // 构造函数，参数列表包括名字和年龄 Person(const std::string&amp;amp; name, int age); // 获取名字 std::string getName() const; // 获取年龄 int getAge() const; // 设置名字 void setName(const std::string&amp;amp; name); // 设置年龄 void setAge(int age); private: std::string name; int age; }; #endif // PERSON_H 成员函数即定义在类/方法中的函数。 变量和基本类型 2.1 基本内置类型 2.1.1 算数类型 2.1.2 类型转换 2.1.3 字面值常量 2.2 变量 如果是内置类型的变量未被显式初始化，它的值由定义的位置决定。定义于任何函数体之外的变量被初始化为0，定义在函数体内部的内置类型变量将不被初始化，访问它会出现错误。 声明变量 extern int i; `</description>
+    </item>
+  </channel>
+</rss>

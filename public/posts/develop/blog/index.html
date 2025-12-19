@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Develop - hugo个人博客搭建 - Kexin&#39;s Blog</title><link rel="icon" type="image/png" href=https://github.com/HuangKexinSpace/HuangKexinSpace.github.io/blob/master/assets/kexin-icon.png?raw&#61;true /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="重新记录hugo个人博客的搭建过程" />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="https://example.com/posts/develop/blog/">
+  <meta property="og:site_name" content="Kexin&#39;s Blog">
+  <meta property="og:title" content="Develop - hugo个人博客搭建">
+  <meta property="og:description" content="重新记录hugo个人博客的搭建过程">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-15T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-15T00:00:00+00:00">
+    <meta property="article:tag" content="Web">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Develop - hugo个人博客搭建">
+  <meta name="twitter:description" content="重新记录hugo个人博客的搭建过程">
+<script src="https://example.com/js/feather.min.js"></script>
+	
+	
+        <link href="https://example.com/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://example.com/css/main.5cebd7d4fb2b97856af8d32a6def16164fcf7d844e98e236fcb3559655020373.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://example.com/css/dark.d22e2a2879d933a4b781535fc4c4c716e9f9d35ea4986dd0cbabda82effc4bdd.css" media="(prefers-color-scheme: dark)"  />
+	
+
+	
+	
+
+	
+	
+
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://example.com/">Kexin&#39;s Blog</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/projects">Project</a>
+		
+		<a href="/posts">Posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Develop - hugo个人博客搭建</h1>
+			<div class="meta">Posted on Mar 15, 2025</div>
+		</div>
+		
+
+		
+
+		<section class="body">
+			<h1 id="依赖项安装">依赖项安装</h1>
+<ol>
+<li>Git</li>
+<li>Go: <a href="https://go.dev/doc/install">https://go.dev/doc/install</a></li>
+</ol>
+<ul>
+<li>Check if sucessful installed</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>go version
+</span></span></code></pre></div><ol start="3">
+<li>Dart Sass: brew install sass/sass/sass</li>
+</ol>
+<ul>
+<li>Check if sucessful installed</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>hugo env
+</span></span></code></pre></div><hr>
+<h2 id="安装hugo-for-mac">安装Hugo for mac</h2>
+<ul>
+<li>安装命令</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>brew install hugo
+</span></span></code></pre></div><ul>
+<li>check命令</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>hugo version
+</span></span></code></pre></div><h2 id="新建网站">新建网站</h2>
+<ul>
+<li>安装一个主题的minimal command</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>hugo new site quickstart
+</span></span><span style="display:flex;"><span>cd quickstart
+</span></span><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+</span></span><span style="display:flex;"><span>echo &#34;theme = &#39;ananke&#39;&#34; &gt;&gt; hugo.toml
+</span></span><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><h3 id="一步一步安装">一步一步安装</h3>
+<ul>
+<li>在终端的自定义存放hugo的文件夹下运行</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>hugo new site your_folder_name
+</span></span><span style="display:flex;"><span>cd your_folder_name
+</span></span><span style="display:flex;"><span>git inti
+</span></span><span style="display:flex;"><span>git submodule add your_choosed_theme_github_url
+</span></span><span style="display:flex;"><span>echo &#34;theme&#34; = &#39;theme_name&#39;&#34;&gt;&gt;hugo.toml
+</span></span></code></pre></div><ul>
+<li>启动hugo查看网站</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>hugo server
+</span></span><span style="display:flex;"><span># 启动hugo查看保存的草稿但未发布指令
+</span></span><span style="display:flex;"><span>hugo server -D
+</span></span></code></pre></div><ul>
+<li>添加内容</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>hugo new content content/posts/post_title.md
+</span></span></code></pre></div><ul>
+<li>发布网站</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>hugo
+</span></span></code></pre></div><h3 id="在github托管hugo">在Github托管Hugo</h3>
+<ul>
+<li>Create a Github repository（个人仓库，仓库名为账号名），注意⚠️不要添加readme.md</li>
+<li>git remote add origin url
+<ul>
+<li>Check: git remote -v</li>
+</ul>
+</li>
+<li>Follow the step3-10: <a href="https://gohugo.io/host-and-deploy/host-on-github-pages/">https://gohugo.io/host-and-deploy/host-on-github-pages/</a></li>
+</ul>
+<h1 id="日常编辑">日常编辑</h1>
+<ul>
+<li>配置页面: 根目录下hugo.toml文件</li>
+</ul>
+<h2 id="内容更新">内容更新</h2>
+<ul>
+<li>新建posts
+<ul>
+<li>createfile: 根目录/content/posts/new_yourpostname.md</li>
+<li>fileconfig:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>  title: your_post_title
+</span></span><span style="display:flex;"><span>  date: 2024-03-15T12:00:00
+</span></span><span style="display:flex;"><span>  description:
+</span></span><span style="display:flex;"><span>  tags:
+</span></span><span style="display:flex;"><span>  - tagA
+</span></span><span style="display:flex;"><span>--- 
+</span></span></code></pre></div></li>
+<li>为your_post插入图片
+<ul>
+<li>在posts目录下新建一个放置图片的文件夹</li>
+<li>在your_post中输入如下markdown指令</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>![pic](../picturefilename/picturename.png)
+</span></span></code></pre></div><ul>
+<li>创建带caption的图片</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>&lt;<span style="color:#f92672">figure</span>&gt;&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;../picturefilename/picturename.png&#34;</span> <span style="color:#a6e22e">width</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;80%&#34;</span>&gt;&lt;<span style="color:#f92672">figcaption</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">h4</span>&gt;figurecaption&lt;/<span style="color:#f92672">h4</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">figcaption</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">figure</span>&gt;
+</span></span></code></pre></div><h1 id="github自动部署后的push命令">Github自动部署后的push命令</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m &#34;update_info&#34;
+</span></span><span style="display:flex;"><span>git push origin
+</span></span></code></pre></div><ul>
+<li>在push前，可以运行来查看网站是否正确渲染，没问题后，推送上去。</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>hugo server -D
+</span></span></code></pre></div><h1 id="注意">注意</h1>
+<p>hugo部署的时间是世界时间，早于世界时间的post不会提起发布，中国比世界时间快八小时，也就是说，你的时间点需要减去八小时，post出去的文章才可以立刻看到。</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="/tags/web">Web</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/HuangKexinSpace" rel="me" title="GitHub"><i data-feather="github"></i></a>
+    <a class="border"></a><a class="soc" href="mailto:functionhkx@gmail.com" rel="me" title="Email"><i data-feather="mail"></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2025  © Athul |  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+
+  
+
+
+<script>
+  feather.replace()
+</script></div>
+    </body>
+</html>
