@@ -13,14 +13,10 @@ favicon = "https://github.com/HuangKexinSpace/HuangKexinSpace.github.io/blob/mas
 	mode="auto"
 	useCDN=false
 	subtitle = """Hello, this is Kexin. I learn, research, develop, design and record.
-	（新的个人页面正在用别的模板重构中，当前页面即将弃用，最后在这边更新游戏开发日记）
 
-
-
-
-
-
-
+	新的个人页面正在用别的模板重构中，但那个模板感觉也不是特别满意，目前尚未确定当前页面后续的定位，可能会是是生活+技术记录。
+	
+	总感觉简历+项目应该为一个公开页面，生活+技术记录应该为一个私人页面。
 	
 	"""
 
