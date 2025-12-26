@@ -1,7 +1,7 @@
 ---
 title: 游戏开发日记（3）
 date: 2025-12-26
-description: 251226donetodo/美术风格参考/mj prompt词/垫图指令
+description: 251226donetodo/美术风格参考/mj学习笔记/垫图指令
 tags:
   - game develop
 ---
@@ -22,6 +22,7 @@ tags:
 
 ## 插画风1
 {{< figure src="../attachments/25122702.png" title="小红书某插画风（用这个风格生成了超满意的立绘，很大概率游戏美术就是这个风格了）" width="80%" >}}
+
 🪄Prompt解析：
 风格词：扁平插画、扁平人物
 艺术风格：极简艺术、卡通、高饱和度
