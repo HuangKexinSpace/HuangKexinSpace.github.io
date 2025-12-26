@@ -1,7 +1,7 @@
 ---
 title: 游戏开发日记（3）
 date: 2025-12-26
-description: ai美术
+description: 251226donetodo/美术风格参考/mj prompt词/垫图指令
 tags:
   - game develop
 ---
@@ -32,9 +32,9 @@ tags:
 Girl avatar, cute avatar, short hair, white hair, flat illustrations, flat characters, cartoon, looking at the camera, holding a cat in hand, close-up avatar, minimalist art, high saturation, yellow blue background, solid color background
 
 
-# Midjourney学习
+# Midjourney学习笔记
 ## 一般prompt词写法思路
-1) Prompt 的固定骨架（建议你长期复用）
+1) Prompt 的固定骨架
 把一条 prompt 分成 6 块，顺序也基本固定：
 	1.	主体是谁（Subject）：角色类型/身份
 	2.	不可妥协的特征（Must-have）：发型、年龄感、体型比例、标志物
@@ -53,7 +53,7 @@ Girl avatar, cute avatar, short hair, white hair, flat illustrations, flat chara
 	•	当张背景（空白/场景/渐变色）
 	•	当张光照氛围（清晨/霓虹/逆光）
 ⸻
-2) 参数（旋钮）里哪些算“固定”，哪些算“调参”
+1) 参数（旋钮）里哪些算“固定”，哪些算“调参”
 	•	--ar 画幅（立绘常用 --ar 2:3 或 --ar 9:16，头像 --ar 1:1）
 	•	--v 版本（当前默认v7）。--niji 6 偏二次元
 	•	--seed 种子（锁定seed之后，改细节就是微调特征了）
@@ -65,8 +65,7 @@ Girl avatar, cute avatar, short hair, white hair, flat illustrations, flat chara
   - --sw 风格强度 0-1000
 版本不同可用参数细节会有差异，但“固定画幅/版本/seed + 调 stylize/chaos/–no”这个训练方法基本通用。
 ⸻
-1) 一条“骨架模板”（你可以自己填空）
-把下面当作你自己的“角色生成器”：
+1) 一条“骨架模板”
 模板：
 [角色身份与世界观], [不可妥协特征清单], [服装道具], [姿势表情], [呈现方式], [固定风格词], [光色/背景] --ar X:Y --v ? --s ? --chaos ? --seed ? --no ?
 
