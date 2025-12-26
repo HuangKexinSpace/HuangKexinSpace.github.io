@@ -1,6 +1,6 @@
 ---
 title: 游戏开发日记（3）
-date: 2025-12-27
+date: 2025-12-26
 description: ai美术
 tags:
   - game develop
