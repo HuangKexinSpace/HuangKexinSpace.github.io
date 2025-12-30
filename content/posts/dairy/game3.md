@@ -1,5 +1,5 @@
 ---
-title: 游戏开发日记（3）-251227
+title: 游戏开发日记（3）- 251227
 date: 2025-12-26
 description: Done&Todo/美术风格参考/mj学习笔记/垫图指令
 tags:
